@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	دیدگاه‌ها برای: باز کردن قفل ورود به سرور اوبونتو با کاربر روت	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>وب نوشته های یک انسان!</description>
+	<lastBuildDate>Mon, 25 Jan 2021 16:43:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		توسط: جواد ادیب		</title>
+		<link>./../index.html#comment-39390</link>
+
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Mon, 25 Jan 2021 16:43:20 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-39390</guid>
+
+					<description><![CDATA[برای قفل کردن رمز یک حساب کاربری و جلوگیری از ورود اون کاربر میتونید از این دستور استفاده کنید.
+&lt;pre&gt;sudo passwd -l user-name&lt;/pre&gt;
+مثلا
+&lt;pre&gt;sudo passwd -l javad&lt;/pre&gt;]]></description>
+			<content:encoded><![CDATA[<p>برای قفل کردن رمز یک حساب کاربری و جلوگیری از ورود اون کاربر میتونید از این دستور استفاده کنید.</p>
+<pre>sudo passwd -l user-name</pre>
+<p>مثلا</p>
+<pre>sudo passwd -l javad</pre>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: سید عماد حسینی		</title>
+		<link>./../index.html#comment-36973</link>
+
+		<dc:creator><![CDATA[سید عماد حسینی]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2020 18:18:10 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-36973</guid>
+
+					<description><![CDATA[واقعا ممنونم از شما]]></description>
+			<content:encoded><![CDATA[<p>واقعا ممنونم از شما</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: IRNMP3		</title>
+		<link>./../index.html#comment-36929</link>
+
+		<dc:creator><![CDATA[IRNMP3]]></dc:creator>
+		<pubDate>Fri, 20 Mar 2020 17:06:47 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-36929</guid>
+
+					<description><![CDATA[ممنونم بابت اشتراک گذاری دانش و تجربیات تون، مثل مطالب قبلی تون ساده، مفید و کاربردی...]]></description>
+			<content:encoded><![CDATA[<p>ممنونم بابت اشتراک گذاری دانش و تجربیات تون، مثل مطالب قبلی تون ساده، مفید و کاربردی&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: حسین میرزایی		</title>
+		<link>./../index.html#comment-35522</link>
+
+		<dc:creator><![CDATA[حسین میرزایی]]></dc:creator>
+		<pubDate>Mon, 30 Dec 2019 23:16:23 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-35522</guid>
+
+					<description><![CDATA[دست خدا درد نکند.بعدا هم هافکینگز می گه خدا نیست.جواد یکی از پدید آورده های شگفت انگیز اوست.که هر کس مرام جواد ببیند و به سجده نیفتد خودش را انکار کرده است.کفر است اما خوشحالم که خداوند توانایی آفرینش وجودهای شگفتی چون جواد دارد. و چه نام با مسمایی!جواد!!ممنون جواد جان!]]></description>
+			<content:encoded><![CDATA[<p>دست خدا درد نکند.بعدا هم هافکینگز می گه خدا نیست.جواد یکی از پدید آورده های شگفت انگیز اوست.که هر کس مرام جواد ببیند و به سجده نیفتد خودش را انکار کرده است.کفر است اما خوشحالم که خداوند توانایی آفرینش وجودهای شگفتی چون جواد دارد. و چه نام با مسمایی!جواد!!ممنون جواد جان!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد عوض زاده		</title>
+		<link>./../index.html#comment-33396</link>
+
+		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
+		<pubDate>Sun, 23 Jun 2019 18:07:40 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-33396</guid>
+
+					<description><![CDATA[در پاسخ به &lt;a href=&quot;./../index.html#comment-33373&quot;&gt;دماوندی&lt;/a&gt;.
+
+سلام. نمیدونم:/]]></description>
+			<content:encoded><![CDATA[<p>در پاسخ به <a href="./../index.html#comment-33373">دماوندی</a>.</p>
+<p>سلام. نمیدونم:/</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: دماوندی		</title>
+		<link>./../index.html#comment-33373</link>
+
+		<dc:creator><![CDATA[دماوندی]]></dc:creator>
+		<pubDate>Wed, 19 Jun 2019 06:26:13 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-33373</guid>
+
+					<description><![CDATA[سلام مهندس من چند روزی فایلهای اکسل رو  دانلود کردم و روی  DESKTOP کپی کردم واستفاده کردم ولی از امروز باز نمیکنه وپیام میده 
+SERVER EXECUTION FAILED    مشکل بنظر شما چیه؟]]></description>
+			<content:encoded><![CDATA[<p>سلام مهندس من چند روزی فایلهای اکسل رو  دانلود کردم و روی  DESKTOP کپی کردم واستفاده کردم ولی از امروز باز نمیکنه وپیام میده<br />
+SERVER EXECUTION FAILED    مشکل بنظر شما چیه؟</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: مهسا		</title>
+		<link>./../index.html#comment-32863</link>
+
+		<dc:creator><![CDATA[مهسا]]></dc:creator>
+		<pubDate>Fri, 05 Apr 2019 07:32:37 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-32863</guid>
+
+					<description><![CDATA[واقعا ممنونم جناب عوض زاده خیلی کمکم کردین]]></description>
+			<content:encoded><![CDATA[<p>واقعا ممنونم جناب عوض زاده خیلی کمکم کردین</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: Zahra		</title>
+		<link>./../index.html#comment-32778</link>
+
+		<dc:creator><![CDATA[Zahra]]></dc:creator>
+		<pubDate>Thu, 28 Mar 2019 02:40:26 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-32778</guid>
+
+					<description><![CDATA[سلام وقت بخیر جناب عوض زاده...امکانش هست که فیلم آموزشی مربوط به نرم افزار فتوشاپ رو هم روی وب قرار بدین؟]]></description>
+			<content:encoded><![CDATA[<p>سلام وقت بخیر جناب عوض زاده&#8230;امکانش هست که فیلم آموزشی مربوط به نرم افزار فتوشاپ رو هم روی وب قرار بدین؟</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد عوض زاده		</title>
+		<link>./../index.html#comment-32716</link>
+
+		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
+		<pubDate>Mon, 18 Mar 2019 03:09:25 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-32716</guid>
+
+					<description><![CDATA[در پاسخ به &lt;a href=&quot;./../index.html#comment-32701&quot;&gt;حسام امیدی بخش&lt;/a&gt;.
+
+سلام. &lt;a href=&quot;./../../-video/chrikt-word&quot;&gt;آموزش/index.html ساده و سریع ورد&lt;/a&gt; روی سایت هست که می‌تونید ازش استفاده کنید.]]></description>
+			<content:encoded><![CDATA[<p>در پاسخ به <a href="./../index.html#comment-32701">حسام امیدی بخش</a>.</p>
+<p>سلام. <a href="./../../-video/chrikt-word/index.html">آموزش ساده و سریع ورد</a> روی سایت هست که می‌تونید ازش استفاده کنید.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: حسام امیدی بخش		</title>
+		<link>./../index.html#comment-32701</link>
+
+		<dc:creator><![CDATA[حسام امیدی بخش]]></dc:creator>
+		<pubDate>Sat, 16 Mar 2019 13:45:18 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2669#comment-32701</guid>
+
+					<description><![CDATA[سلام..وقت بخیر جناب عوض زاده..امکانش هست که فیلم های آموزشی مربوط به نرم افزار Word رو هم روی وب قرار بدین ؟؟!!]]></description>
+			<content:encoded><![CDATA[<p>سلام..وقت بخیر جناب عوض زاده..امکانش هست که فیلم های آموزشی مربوط به نرم افزار Word رو هم روی وب قرار بدین ؟؟!!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

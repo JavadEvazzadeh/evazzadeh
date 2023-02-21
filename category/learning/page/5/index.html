@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <base href="./../../../../index.html">
+ <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
+ <title>آموزش |  جواد عوض زاده</title>
+ <meta name="Description" content="سعی می کنم هر چی بلدم و می تونم رو اینجا آموزش بدم">
+ <meta property="og:url" content="./../../../../index.html">
+ <meta property="og:image" content="./../../../../blog/wp-content/themes/munin/images/favicon.png">
+ <meta property="og:locale" content="fa_IR">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no, minimal-ui">
+ <!-- [if lte IE 8]><script>document.location = 'http://deadbrowser.ir';</script><![endif] -->
+ <link href="./../../../../blog/wp-content/themes/munin/style.css" rel="stylesheet" type="text/css" media="all">
+ <link href="./../../../../blog/wp-content/themes/munin/images/favicon.png" rel="shortcut icon">
+ 
+ </head>
+
+ <body>
+ <header>
+  <div id="header" class="animated">
+   <div id="site-title">
+    <h1 id="logo"><a class="navbar-brand" href="./../../../../blog/index.html">جواد عوض زاده</a></h1>
+    <nav>
+     <div id="header-nav">
+<a href="./../../../../donate/index.html">حمایت مالی</a>
+<a href="./../../../../javad/contact/index.html">تماس با من</a>
+<a href="./../../../../dl/Resume_Javad_Evazzadeh.pdf">دانلود رزومه</a>
+     </div>
+    </nav>
+   </div>
+  </div>
+ </header>
+
+ <!-- wrapper -->
+ <div id="wrapper">    <section>
+          <header class="page-header">
+        <h2>
+          آرشیو دسته: <span>آموزش</span>        </h2>
+
+        <div class="taxonomy-description">
+<p>سعی می کنم هر چی بلدم و می تونم رو اینجا آموزش بدم</p>
+</div>      </header>
+
+      
+                              <div class="persist-area post">
+                  <article id="post-774">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/all-post-status/index.html" title="لینک مستقیم به انواع نوشته در وردپرس" rel="bookmark">انواع نوشته در وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 4 ژانویه 2013؛ ساعت 1:15 ق.ظ"> 3700 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p>شاید شما هم یه زمانی نیاز داشته باشید به هر دلیلی تمام یا یکی از انواع نوشته وردپرسی رو به نمایش بگذارید و همونطور که میدونید در وردپرس به صورت پیش فرض نوشته های منتشر شده به نمایش درمیان، که شاید شما مثل من نیاز داشته باشید که نوشته هایی رو که در آینده منتشر خواهند شد رو هم در پرس و جوی خودتون داشته باشید.<img decoding="async" class="aligncenter size-full wp-image-791" src="./../../../../dl/2013/01/wordpress.jpg" alt="وردپرس" width="500" height="319" srcset="./../../../../dl/2013/01/wordpress.jpg 500w, ./../../../../dl/2013/01/wordpress-300x191.jpg 300w" sizes="(max-width: 500px) 100vw, 500px"></p>
+<p>برای این کار از پارامتر &#8216;post_status&#8217;  استفاده می کنیم. حالت های مختلفی که تا یه امروز (نسخه 3.5 وردپرس) پشتیبانی میشه به شرح زیر است:</p>
+<pre class="lang:default decode:true" dir="ltr">using the post_status parameter, ie. 'post_status' =&gt; 'any'
+* 'publish' - a published post or page
+* 'pending' - post is pending review
+* 'draft' - a post in draft status
+* 'auto-draft' - a newly created post, with no content
+* 'future' - a post to publish in the future
+* 'private' - not visible to users who are not logged in
+* 'inherit' - a revision. see get_children.
+* 'trash' - post is in trashbin. added with Version 2.9.</pre>
+<p>اگه با نوع پست (post type) آشنایی داشته باشید و یا در وب سایتتون از اون استفاده کردید و خواهان استفاده ترکیبی از مورد بالا و نوع خاصی از نوشته هستید می تونید از الگوی زیر استفاده کنید.</p>
+<pre class="lang:php decode:true" dir="ltr">$query = array(
+    'post_type' =&gt; 'my-post-type',
+    'post_status' =&gt; array('publish', 'pending', 'draft', 'auto-draft', 'future', 'private', 'inherit', 'trash')    
+);
+query_posts($query);</pre>
+<p>به جای my-post-type می تونید از نامی رو که برای نوع پستتون تعریف کردید استفاده کنید.</p>
+<p>در آینده شاید یه توضیح کامل درباره پست تایپ در وردپرس دادم، چیزی که هنوز اون طور که باید شناخته نشده! موفق باشید</p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-760">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/wordpress-delete-empty-posts/index.html" title="لینک مستقیم به حذف نوشته های خالی از  متن در وردپرس" rel="bookmark">حذف نوشته های خالی از  متن در وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 27 دسامبر 2012؛ ساعت 6:07 ب.ظ"> 3708 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><img decoding="async" class="alignleft  wp-image-794" src="./../../../../dl/2012/12/wordpress-logo.jpg" alt="وردپرس" width="180" height="180" srcset="./../../../../dl/2012/12/wordpress-logo.jpg 225w, ./../../../../dl/2012/12/wordpress-logo-150x150.jpg 150w" sizes="(max-width: 180px) 100vw, 180px"><br>
+شاید شما هم مثل من سایت یا سایتهایی رو داشته باشید که بصورت خودکار از طریق آر اس اس محتوا تولید می کنند. اگه اینطور باشه حتما میدونید که گاهی به دلیل یک سری مشکلاتی که ممکنه برای آر اس اس منبع بوجود بیاد، پست های شما خالی از هرگونه متنی باشه. اگه بخوام بیشتر و راحت تر توضیح بدم میتونم بگم که بعد از مدتی شما تعداد زیادی پست دارید که یه تعدادی از اون ها (شاید حدود 10 تا 50 درصد یا حتی بیشتر!) خالی از متن هستند یعنی پلاگین شما فقط تونسته عنوان نوشته رو بخونه و برای دریافت متن به هر دلیلی با مشکل مواجه شده، در حال حاضر ما سعی می کنیم که این نوشته های خالی از متن رو پاک کنیم. برای حذف نوشته ها با ما همراه باشید&#8230;<br>
+<a class="more-link" title="ادامه مطلب و دسترسی مستقیم به حذف نوشته های خالی از  متن در وردپرس" href="./../../../../learning/wordpress-delete-empty-posts/index.html" rel="bookmark">ادامه دارد <span class="meta-nav">&raquo;&raquo;&raquo;</span></a></p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-287">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/enable-pretty-permalink-for-local-wordpress-installation/index.html" title="لینک مستقیم به رفع مشکل پیوند یکتا در وردپرس" rel="bookmark">رفع مشکل پیوند یکتا در وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 2 ژوئن 2012؛ ساعت 7:24 ب.ظ"> 3915 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p style="text-align: center;">سلام، خیلی وقت بود که چیزی ارسال نکرده بودم، هر چند نکته های زیادی واسه نوشتن دارم ولی چون تو اولویت کارام نیست نمی نویسم!<img decoding="async" class="aligncenter  wp-image-294" title="apache_mod_rewrite" src="./../../../../dl/2012/06/apache_mod_rewrite.jpg" alt="apache_mod_rewrite" width="531" height="270" srcset="./../../../../dl/2012/06/apache_mod_rewrite.jpg 590w, ./../../../../dl/2012/06/apache_mod_rewrite-300x152.jpg 300w" sizes="(max-width: 531px) 100vw, 531px"></p>
+<p><a class="more-link" title="ادامه مطلب و دسترسی مستقیم به رفع مشکل پیوند یکتا در وردپرس" href="./../../../../learning/enable-pretty-permalink-for-local-wordpress-installation/index.html" rel="bookmark">ادامه دارد <span class="meta-nav">&raquo;&raquo;&raquo;</span></a></p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-174">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/run-game-fullscree-on-win7/index.html" title="لینک مستقیم به رفع مشکل وجود صفحه سیاه در بعضی بازی های اجرا شده تحت ویندوز 7" rel="bookmark">رفع مشکل وجود صفحه سیاه در بعضی بازی های اجرا شده تحت ویندوز 7</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 8 دسامبر 2011؛ ساعت 3:21 ب.ظ"> 4093 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><img decoding="async" width="480" height="271" class="alignleft  wp-image-226" title="windows_7_full_screen_problem" src="./../../../../dl/2011/12/windows_7_full_screen_problem.jpg" alt="گوشه سیاه در بازی ویندوز7" srcset="./../../../../dl/2011/12/windows_7_full_screen_problem.jpg 480w, ./../../../../dl/2011/12/windows_7_full_screen_problem-300x169.jpg 300w" sizes="(max-width: 480px) 100vw, 480px">صفحه سیاه در بعضی بازی ها یکی از مشکلاتی است که استفاده کنندگان از ویندوز 7 باهاش مواجهن  به عبارت دیگه بازی تمام صفحه اجرا نمیشه!<br>
+واسه حل این مشکل زیاد نگشتم! ولی اولین چیزی که پیدا کردم رو واستون میذارم. با این روش این مشکل روی بعضی بازی ها حل میشه ولی بعضی از بازی ها (مثه بازی های شرکت PopCap)همچنان این مشکل رو دارن اگه روشی رو هم واسه درس کردن اونا پیدا کردم همینجا میذارم.</p>
+<p>اول از همه آخرین نسخه ی درایور خودتون رو از طریق <a href="http://support.amd.com/us/gpudownload/Pages/index.aspx">http://support.amd.com/us/gpudownload/Pages/index.aspx</a> دانلود کنید.<br>
+بعد از اون رزولوشن ویندوزتون رو به 1024*768 تغییر بدین.</p>
+<p>سپس روی دسکتاپ کلیک راست کرده و Catalyst(TM) Control Cernter رو انتخاب کنید.<br>
+تو صفحه ی باز شده از قسمت بالا چپ روی Graphics کلیک کنید و از زیرگزینه هاش Desktops &amp; Desplays رو انتخاب کنید.</p>
+<p>تو این صفحه سمت چپ پایین روی عکس کامپیوتری که روش نوشته 1 کلیک راست کنید و گزینه ی Configure رو انتخاب کنید.<br>
+تو این صفحه ی جدید تو قسمت Scaling Options گزینه ی Full Screenرو انتخاب کرده و Ok رو بزنید. اگه گزینه ی full Screen فعال نبود رزولوشن رو به 800*600 تغییر بدید و مراحل رو دوباره انجام بدین.<br>
+در آخر هم رزولوشن رو به مقدار قبلیش برگردونید و از بازی هاتون لذت ببرید.</p>
+<p>این روش روی بازی Age of Mythology رو نوت بوکم جواب داد.</p>
+<p><strong><span style="color: #ff6600;">این روش برای دارندگان کارت های گرافیک AMD جواب میده</span></strong></p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-167">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/disable-fnkeys-on-hpnotebooks/index.html" title="لینک مستقیم به غیرفعال کردن Fn + Function Key در بعضی از نوت بوک ها" rel="bookmark">غیرفعال کردن Fn + Function Key در بعضی از نوت بوک ها</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 8 دسامبر 2011؛ ساعت 2:47 ب.ظ"> 4093 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><img decoding="async" class="alignleft size-full wp-image-228" title="Hp_keyboard" src="./../../../../dl/2011/12/Hp_keyboard.jpg" alt="صفحه کلید اچ پی" width="300" height="220">در بعضی مدل لپ تاپ های شرکت اچ پی به جای اینکه دکمه های F1,f2,&#8230; فعال باشن دکمه های توابع (function) فعال هستن و این ممکنه برای بعضی ها مثل من آزار دهنده و یا برای بعضی ها دوست داشتنی باشه!<br>
+وقتی واسه رفع این مشکل دنبال راه حل تو اینترنت بودم تو سایتای فارسی چیزی پیدا نکردم و بعدش تو سایت شرکت اچ پی روش درست کردن این مشکل رو یافتم!!</p>
+<p>روش برطرف کردن رو به فارسی می نویسم به انگلیسی هم میذارم تا دوستانی که مشکل دارن با همین متن فارسی مشکلشون حل بشه.<br>
+*اول از همه کامپیوتر رو روشن می کنید!<br>
+*بعد از روشن شدن دکمه ی F10 رو می زنید تا وارد بایوس بشید.<br>
+*حالا با دکمه های چپ و راست روی System Configuration بیاید.<br>
+*از زیر مجموعه هاش گزینه ی Action Keys Mode رو انتخاب کرده و انتر رو فشار بدید.<br>
+*حالا از بین دو گزینه ی موجود اونی رو که دوس دارین انتخاب کنین! واسه تغییر به حالت استاندارد Disabled رو انتخاب کنین.<br>
+* بعد از تنظیم این گزینه دکمه ی F10 رو برای ذخیره سازی و خروج فشار بدین.</p>
+<p>توضیح انگلیسی رو در ادامه مطلب بخوانید&#8230;</p>
+<p><a class="more-link" title="ادامه مطلب و دسترسی مستقیم به غیرفعال کردن Fn + Function Key در بعضی از نوت بوک ها" href="./../../../../learning/disable-fnkeys-on-hpnotebooks/index.html" rel="bookmark">ادامه دارد <span class="meta-nav">&raquo;&raquo;&raquo;</span></a></p>
+          </div>
+  </article>
+            </div>
+                            <div id="navigation" class="clearfix">
+        <div class="wp-pagenavi" role="navigation">
+<span class="pages">صفحه 5 از 7</span><a class="previouspostslink" rel="prev" aria-label="برگه قبلی" href="./../4/index.html">«</a><a class="page smaller" title="صفحه 1" href="./../../index.html">1</a><a class="page smaller" title="صفحه 2" href="./../2/index.html">2</a><a class="page smaller" title="صفحه 3" href="./../3/index.html">3</a><a class="page smaller" title="صفحه 4" href="./../4/index.html">4</a><span aria-current="page" class="current">5</span><a class="page larger" title="صفحه 6" href="./../6/index.html">6</a><a class="page larger" title="صفحه 7" href="./../7/index.html">7</a><a class="nextpostslink" rel="next" aria-label="برگه بعدی" href="./../6/index.html">»</a>
+</div>    
+    </div>
+
+              </section>
+<aside>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <nav>
+            <div class="sidebar-nav">
+                <h2 class="sidebar-brand"><a href="./../../../../blog/index.html">جواد عوض زاده</a></h2>
+                  <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+                <div class="sidebar-items">
+
+                  <a href="./../../index.html" aria-current="page">آموزش</a>
+<a href="./../../-video/index.html">ویدیوهای آموزشی</a>
+<a href="./../../../handwriting/index.html">دست نوشته ها</a>
+<a href="./../../../generality/index.html">عمومی</a>
+<a href="./../../../portfolio/index.html">نمونه کارها</a>
+<a href="./../../../presentation/index.html">ارائه ها</a>
+<a target="_blank" rel="noopener" href="https://sarshomar.com/">سرشمار</a>
+                                      <div>
+                      <a id="donate-nav" href="./../../../../donate/index.html" target="_blank" title="آیا مطالب این سایت برای شما مفید بوده؟">حمایت مالی</a>
+
+    <form method="post" class="donate-box">
+      <div class="price">
+        <input type="number" name="price" min="1" value="1" placeholder="مقدار" autocomplete="off">
+        <label for="price">هزار تومان</label>
+      </div>
+      <input type="submit" name="PayRequestSubmit" value="این هم کمک من!" class="btn" title="پیشاپیش از حمایت شما سپاسگذاری میکنم">
+    </form>
+                        </div>
+                  </div>
+            </div>
+        </nav>
+
+        <a href="#menu-toggle" id="menu-toggle">
+            <div class="mymenu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+        </a>
+        <div id="motto"></div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+</aside>  <footer>
+   <section>
+    <div id="social">
+     <a target="_blank" id="soc-linkedin" href="http://ir.linkedin.com/in/evazzadeh/" title="رزومه جواد عوض زاده کاکرودی در لینکداین"><i class="fa fa-linkedin"></i></a>
+     <a target="_blank" id="soc-instagram" href="https://instagram.com/evazzadeh" title="تصاویر جواد عوض زاده کاکرودی در اینستاگرام"><i class="fa fa-instagram"></i></a>
+     <a target="_blank" id="soc-google" href="https://plus.google.com/+JavadEvazzadeh" title="پروفایل جواد عوض زاده کاکرودی در گوگل پلاس"><i class="fa fa-google-plus"></i></a>
+     <a target="_blank" id="soc-facebook" href="https://facebook.com/j.evazzadeh" title="صفحه جواد عوض زاده کاکرودی در فیس بوک"><i class="fa fa-facebook"></i></a>
+     <a target="_blank" id="soc-twitter" href="https://twitter.com/evazzadeh" title="توئیت های جواد عوض زاده کاکرودی"><i class="fa fa-twitter"></i></a>
+    </div>
+   </section>
+   <div id="footer">
+    <div id="footerbox" class="container">
+     <div class="row">
+      <div class="span4">
+<h3>دسته‌بندی</h3>
+<div class="info">
+			<ul>
+					<li class="cat-item cat-item-3 current-cat">
+<a aria-current="page" href="./../../index.html">آموزش</a>
+</li>
+	<li class="cat-item cat-item-510">
+<a href="./../../../presentation/index.html">ارائه ها</a>
+</li>
+	<li class="cat-item cat-item-476">
+<a href="./../../../review/index.html">بررسی</a>
+</li>
+	<li class="cat-item cat-item-599">
+<a href="./../../../tips/index.html">حرف های کوتاه</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="./../../../handwriting/index.html">دست نوشته ها</a>
+</li>
+	<li class="cat-item cat-item-498">
+<a href="./../../../applyabroad/index.html">روند اپلای خارج از کشور</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="./../../../generality/index.html">عمومی</a>
+</li>
+	<li class="cat-item cat-item-69">
+<a href="./../../../book/index.html">کتاب</a>
+</li>
+	<li class="cat-item cat-item-45">
+<a href="./../../../worldskills/index.html">مسابقات مهارت</a>
+</li>
+	<li class="cat-item cat-item-509">
+<a href="./../../../article/index.html">مقالات</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="./../../../portfolio/index.html">نمونه کارها</a>
+</li>
+	<li class="cat-item cat-item-420">
+<a href="./../../-video/index.html">ویدیوهای آموزشی</a>
+</li>
+			</ul>
+
+			</div>
+</div>
+<div class="span4">
+<h3>آخرین دیدگاه ها</h3>
+<div class="info"><ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42278">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42277">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">علی پناهی</span> در <a href="./../../../../tips/%d8%a2%d8%af%d9%85-%d8%a8%d8%a7%db%8c%d8%af-%d8%af%d9%84%d8%b4-%d9%be%d8%a7%da%a9-%d8%a8%d8%a7%d8%b4%d9%87%d8%9f/index.html#comment-42268">آدم باید دلش پاک باشه؟</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Mokhtari</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42266">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">یلدا</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42263">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://kazimirinvestment.com/" rel="external nofollow ugc" class="url">Buy Land in Texas</a></span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42260">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://ghalbplatform.ir/" rel="external nofollow ugc" class="url">مشاوره</a></span> در <a href="./../../../../generality/best-dos-game/index.html#comment-42255">بازی های خاطره انگیز و جذاب قدیمی داس</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">ز.ش</span> در <a href="./../../../../learning-video/chrikt-word/index.html#comment-42252">آموزش ساده و سریع ورد</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">p</span> در <a href="./../../../../learning-video/table-of-contents/index.html#comment-42238">آموزش ساخت فهرست در Word با فشردن یک دکمه و با کمک استایل ها</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://markazpanel.com/" rel="external nofollow ugc" class="url">ساندویچ پانل</a></span> در <a href="./../../../../learning/adjust-minimum-flame-heater/index.html#comment-42227">آموزش تصویری تنظیم حداقل شعله بخاری گازی</a>
+</li>
+</ul></div>
+</div>
+		<div class="span4">
+		<h3>آخرین مطالب</h3>
+<div class="info">
+		<ul>
+											<li>
+					<a href="./../../../../handwriting/finish/index.html">توقف فعالیت سایت عوض‌زاده دات کام</a>
+									</li>
+											<li>
+					<a href="./../../../../tips/adib/index.html">تغییر نام خانوادگی به ادیب و چند نکته</a>
+									</li>
+											<li>
+					<a href="./../../../../learning-video/reshare-free/index.html">اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</a>
+									</li>
+											<li>
+					<a href="./../../../../learning/root-login-over-ssh/index.html">باز کردن قفل ورود به سرور اوبونتو با کاربر روت</a>
+									</li>
+											<li>
+					<a href="./../../../../review/beyond-vietnam-fa-translation/index.html">ترجمه بخشی از سخنرانی مارتین لوتر کینگ درباره ویتنام</a>
+									</li>
+											<li>
+					<a href="./../../../../handwriting/chrikt/index.html">چریکت</a>
+									</li>
+											<li>
+					<a href="./../../../../tips/awe/index.html">در عجبم</a>
+									</li>
+											<li>
+					<a href="./../../../../learning/guide-to-build-ubuntu-server-with-nginx/index.html">آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</a>
+									</li>
+											<li>
+					<a href="./../../../../learning/password-less-ssh-login-on-ubuntu/index.html">آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</a>
+									</li>
+											<li>
+					<a href="./../../../../tips/ermile-time/index.html">پوزش بابت عدم پاسخ‌دهی به سوالات</a>
+									</li>
+					</ul>
+
+		</div>
+</div>     </div>
+    </div>
+    <div id="subfooter" class="row">
+     <div class="container">
+      <p>استفاده از مطالب <a href="./../../../../index.html" title="جواد عوض زاده | وب نوشته های یک انسان!">عوض زاده دات کام</a> فقط برای مقاصد غیر تجاری و با ذکر منبع منعی ندارد.
+       <span class="english float-left"><a href="./../../../../index.html" title="جواد عوض زاده">Evazzadeh.com</a><small>&copy; 2011-2023</small></span>
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+ </div>
+
+
+ <section>
+  <div class="menu-outer">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+   <nav>
+    <div id="popup-nav">
+<a href="./../../../../index.html">عوض زاده دات کام</a>
+<a href="http://saeed.evazzadeh.com/">سعید عوض زاده</a>
+<a href="http://h.evazzadeh.com/">حبیبه عوض زاده</a>
+       <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+    </div>
+   </nav>
+  </div>
+  <a class="menu-close" onclick="return true">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+  </a>
+ </section>
+
+ <script src="./../../../../blog/wp-content/themes/munin/js/jquery-1.11.0.js"></script>
+ <script src="./../../../../blog/wp-content/themes/munin/js/custom.js"></script>
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29692827-1', 'auto');
+  ga('send', 'pageview');</script>
+ </body>
+</html>

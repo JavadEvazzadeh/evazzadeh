@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <base href="./../../index.html">
+ <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
+ <title>آموزش ساده و سریع راه اندازی سرور سنت او اس  </title>
+ <meta name="Description" content="تو این آموزش میخوایم یه سرور سنت او اس رو بدون نصب هیچ کنترل پنلی راه اندازی کنیم و سرویس های مورد نیاز اولیه رو روش بریزیم و در نهایت هم بتونیم چند تا سایت رو روش هاست کنیم. سعی کردم که آموزش ساده ای باشه، هرچند لینوکس ساده نیست!">
+ <meta property="og:url" content="./../../index.html">
+ <meta property="og:image" content="./../../blog/wp-content/themes/munin/images/favicon.png">
+ <meta property="og:locale" content="fa_IR">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no, minimal-ui">
+ <!-- [if lte IE 8]><script>document.location = 'http://deadbrowser.ir';</script><![endif] -->
+ <link href="./../../blog/wp-content/themes/munin/style.css" rel="stylesheet" type="text/css" media="all">
+ <link href="./../../blog/wp-content/themes/munin/images/favicon.png" rel="shortcut icon">
+ 
+ </head>
+
+ <body>
+ <header>
+  <div id="header" class="animated">
+   <div id="site-title">
+    <h1 id="logo"><a class="navbar-brand" href="./../../blog/index.html">جواد عوض زاده</a></h1>
+    <nav>
+     <div id="header-nav">
+<a href="./../../donate/index.html">حمایت مالی</a>
+<a href="./../../javad/contact/index.html">تماس با من</a>
+<a href="./../../dl/Resume_Javad_Evazzadeh.pdf">دانلود رزومه</a>
+     </div>
+    </nav>
+   </div>
+  </div>
+ </header>
+
+ <!-- wrapper -->
+ <div id="wrapper">
+<aside>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <nav>
+            <div class="sidebar-nav">
+                <h2 class="sidebar-brand"><a href="./../../blog/index.html">جواد عوض زاده</a></h2>
+                  <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+                <div class="sidebar-items">
+
+                  <a href="./../../category/learning/index.html">آموزش</a>
+<a href="./../../category/learning-video/index.html">ویدیوهای آموزشی</a>
+<a href="./../../category/handwriting/index.html">دست نوشته ها</a>
+<a href="./../../category/generality/index.html">عمومی</a>
+<a href="./../../category/portfolio/index.html">نمونه کارها</a>
+<a href="./../../category/presentation/index.html">ارائه ها</a>
+<a target="_blank" rel="noopener" href="https://sarshomar.com/">سرشمار</a>
+                                      <div>
+                      <a id="donate-nav" href="./../../donate/index.html" target="_blank" title="آیا مطالب این سایت برای شما مفید بوده؟">حمایت مالی</a>
+
+    <form method="post" class="donate-box">
+      <div class="price">
+        <input type="number" name="price" min="1" value="1" placeholder="مقدار" autocomplete="off">
+        <label for="price">هزار تومان</label>
+      </div>
+      <input type="submit" name="PayRequestSubmit" value="این هم کمک من!" class="btn" title="پیشاپیش از حمایت شما سپاسگذاری میکنم">
+    </form>
+                        </div>
+                  </div>
+            </div>
+        </nav>
+
+        <a href="#menu-toggle" id="menu-toggle">
+            <div class="mymenu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+        </a>
+        <div id="motto"></div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+</aside>
+    <section>
+          <div class="persist-area post">
+          <article id="post-2101">
+    <div class="persist-header post-title animated">
+      <h2><a href="./index.html" title="لینک مستقیم به آموزش ساده و سریع راه اندازی سرور سنت او اس" rel="bookmark">آموزش ساده و سریع راه اندازی سرور سنت او اس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-film"></i>
+      </div>
+    </div>
+    <span class="clock"> <i class="icon-time"></i> <abbr title="نوشته شده در 25 اکتبر 2014؛ ساعت 9:05 ب.ظ"> 3040 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p>سلام. تو این آموزش میخوایم یه سرور سنت او اس رو بدون نصب هیچ کنترل پنلی راه اندازی کنیم و سرویس های مورد نیاز اولیه رو روش بریزیم و در نهایت هم بتونیم چند تا سایت رو روش هاست کنیم. سعی کردم که آموزش ساده ای باشه، هرچند لینوکس ساده نیست!</p>
+<p>شاید اولین سوال این باشه که چرا بدون کنترل پنل! خیلی راحت کنترل پنل میریزم و این دردسرهارو هم  ندارم. ولی مساله اینه که میشه گفت بدون استثنا تمام کنترل پنل ها منابع زیادی از سیستم رو به اشغال خودشون درمیارن در نتیجه شما علاوه بر هزینه احتمالی خود کنترل پنل، باید هزینه بیشتری هم بابت افزایش قدرت سخت افزاری اون هزینه کنید. البته اگه قصد فروش هاست دارین یا اصلا حوصله سروکله زدن با لینوکس و دستوراتش رو ندارین، کلا نیازی به دیدن این آموزش نیست! از وقتتون استفاده مفیدتری بکنید.</p>
+<p>ولی اگه تازه سرور مجازی گرفتید و میخواین تجربیات جدیدی کسب کنین یا میخواین با کنترل پنل ها خداحافظی کنین و به اعماق لینوکس(!) وارد شین، میتونید از این آموزش پنج قسمتی که در مجموع 40 دقیقه از وققتون رو میگیره، استفاده کنین.</p>
+<p>یه نکته هم اینکه از این به بعد اسم آموزش هام رو ساده و سریع میزارم و سعی خودم رو میکنم که مثل اسمشون به سرعت و به سادگی آموزش مربوطه رو منتقل کنم.<span id="more-2101"></span></p>
+<h2>قسمت اول: آشنایی و توضیحات اولیه</h2>
+<p>تو این قسمت تنها یه سری توضیحات اولیه رو به صورت صوتی در حدود 5 دقیقه ارائه خواهم کرد.</p>
+<iframe src="https://www.aparat.com/video/video/embed/videohash/y8kMS/vt/frame" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" height="400" width="600">
+                </iframe>
+<p>&nbsp;</p>
+<h2>قسمت دوم: اتصال به سرور و نصب سرویس های اولیه</h2>
+<p>قسمت دوم مربوط آموزش به اتصال به سرور، نصب ادیتور ننو، نصب آپاچی و پی اچ پی و &#8230; در ادامه کانفیگ مربوط به آپاچی برای نمایش صحیح و در نهایت تنظیم برای فعال شدن سرویس ها هنگام روشن شدن سرور. در ادامه لیست دستورات اصلی مربوط به این  بخش رو می بینید.</p>
+<pre style="direction: ltr;">yum install nano
+yum install httpd
+yum install php
+yum install php php-mysql
+service httpd restart
+nano /etc/httpd/conf/httpd.conf
+service httpd restart
+chkconfig httpd on</pre>
+<iframe src="https://www.aparat.com/video/video/embed/videohash/eg2nP/vt/frame" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" height="400" width="600">
+                </iframe>
+<p>&nbsp;</p>
+<h2>قسمت سوم: نصب مای اس کیو ال و اف تی پی</h2>
+<p>در این قسمت سرویس مای اس کیو ال رو نصب کرده و بعد از نصب مطمئن مای اس کیو ال و تنظیم پسورد، <del>سراغ اف تی پی رفته و بعد از نصب هم تنظیمات مربوطه به سرویس اف تی پی</del> رو روی سنت او اس انجام خواهیم داد.</p>
+<p><strong><span style="color: #ff6600;"> ظاهرا تنظیمات اف تی پی باعث بروز مشکل در سرور خواهد شد. از اونجایی که این بخش با مای اس کیو ال بود فیلم رو حذف نمیکنم. ولی برای تنظیم اف تی پی از یه منبع دیگه استفاده کنید</span> </strong></p>
+<pre style="direction: ltr;">yum install mysql-server
+service mysqld start
+/usr/bin/mysql_secure_installation
+yum install vsftpd
+yum install ftp
+nano /etc/vsftpd/vsftpd.conf</pre>
+<iframe src="https://www.aparat.com/video/video/embed/videohash/HJbBF/vt/frame" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" height="400" width="600">
+                </iframe>
+<p>&nbsp;</p>
+<h2>قسمت چهارم: تنظیم دی ان اس در کلودفلر</h2>
+<p>در این قسمت نحوه کار کردن با سایت کلود فلر Cloudflare  مانند اضافه کردن دامنه و نحوه کار این سایت آموزش داده خواهد شد.</p>
+<iframe src="https://www.aparat.com/video/video/embed/videohash/HagOl/vt/frame" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" height="400" width="600">
+                </iframe>
+<p>&nbsp;</p>
+<h2>قسمت پنجم: افزودن وب سایت جدید به سرور</h2>
+<p>در آخرین قسمت این مجموعه، نحوه اضافه کردن سایت یا به اصلاح هاست کردن سایت جدید آموزش داده خواهد شد.</p>
+<pre style="direction: ltr;">cd ~
+mkdir -p /var/www/domain.com/public_html
+chmod 755 /var/www
+nano /etc/httpd/conf/httpd.conf
+apachectl -k stop
+service httpd start
+/var/www/domain.com/public_html/index.html</pre>
+<iframe src="https://www.aparat.com/video/video/embed/videohash/twLSs/vt/frame" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" height="400" width="600">
+                </iframe>
+          </div>
+  </article>        <div class="postTags">
+<a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4/index.html" rel="tag">آموزش</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%b1%d8%a7%d9%87-%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c/index.html" rel="tag">آموزش راه اندازی</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%b1%d8%a7%d9%87-%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%b3%d9%86%d8%aa-%d8%a7%d9%88-%d8%a7%d8%b3/index.html" rel="tag">آموزش راه اندازی سنت او اس</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%b3%d9%86%d8%aa-%d8%a7%d9%88-%d8%a7%d8%b3/index.html" rel="tag">آموزش سنت او اس</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%da%a9%d8%a7%d9%86%d9%81%db%8c%da%af/index.html" rel="tag">آموزش کانفیگ</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%da%a9%d8%a7%d9%86%d9%81%db%8c%da%af-%d9%84%db%8c%d9%86%d9%88%da%a9%d8%b3/index.html" rel="tag">آموزش کانفیگ لینوکس</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d9%84%db%8c%d9%86%d9%88%da%a9%d8%b3/index.html" rel="tag">آموزش لینوکس</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d9%86%d8%b5%d8%a8/index.html" rel="tag">آموزش نصب</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d9%87%d8%a7%d8%b3%d8%aa-%da%a9%d8%b1%d8%af%d9%86-%d8%b3%d8%a7%db%8c%d8%aa-%d8%b1%d9%88%db%8c-%d8%b3%d8%b1%d9%88%d8%b1/index.html" rel="tag">آموزش هاست کردن سایت روی سرور</a> <a href="./../../tag/%d8%b1%d8%a7%d9%87-%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%b3%d8%b1%d9%88%d8%b1/index.html" rel="tag">راه اندازی سرور</a> <a href="./../../tag/%d8%b1%d8%a7%d9%87-%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%b3%d9%86%d8%aa-%d8%a7%d9%88-%d8%a7%d8%b3/index.html" rel="tag">راه اندازی سنت او اس</a> <a href="./../../tag/%d8%b3%d8%a7%d8%af%d9%87/index.html" rel="tag">ساده</a> <a href="./../../tag/fast-simple/index.html" rel="tag">ساده و سریع</a> <a href="./../../tag/%d8%b3%d8%b1%db%8c%d8%b9/index.html" rel="tag">سریع</a> <a href="./../../tag/%d8%b3%d9%86%d8%aa-%d8%a7%d9%88-%d8%a7%d8%b3/index.html" rel="tag">سنت او اس</a> <a href="./../../tag/%da%a9%d8%a7%d9%86%d9%81%db%8c%da%af/index.html" rel="tag">کانفیگ</a> <a href="./../../tag/%d9%84%db%8c%d9%86%d9%88%da%a9%d8%b3/index.html" rel="tag">لینوکس</a> <a href="./../../tag/%d9%86%d8%b5%d8%a8-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87/index.html" rel="tag">نصب برنامه</a> <a href="./../../tag/%d9%87%d8%a7%d8%b3%d8%aa-%da%a9%d8%b1%d8%af%d9%86-%d8%b3%d8%a7%db%8c%d8%aa-%d8%b1%d9%88%db%8c-%d8%b3%d9%86%d8%aa-%d8%a7%d9%88-%d8%a7%d8%b3/index.html" rel="tag">هاست کردن سایت روی سنت او اس</a> <a href="./../../tag/%d9%87%d8%a7%d8%b3%d8%aa-%da%a9%d8%b1%d8%af%d9%86-%d8%b3%d8%a7%db%8c%d8%aa-%d8%b1%d9%88%db%8c-%d9%84%db%8c%d9%86%d9%88%da%a9%d8%b3/index.html" rel="tag">هاست کردن سایت روی لینوکس</a>
+</div>
+        <div class="relatedPosts"><nav class="relatedposts"><h3>در همین رابطه بخوانید</h3>            <a rel="external" href="./../reshare-free/index.html" title="لینک مستقیم به اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی">اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</a>
+            <a rel="external" href="./../../learning/root-login-over-ssh/index.html" title="لینک مستقیم به باز کردن قفل ورود به سرور اوبونتو با کاربر روت">باز کردن قفل ورود به سرور اوبونتو با کاربر روت</a>
+            <a rel="external" href="./../../handwriting/chrikt/index.html" title="لینک مستقیم به چریکت">چریکت</a>
+            <a rel="external" href="./../../learning/guide-to-build-ubuntu-server-with-nginx/index.html" title="لینک مستقیم به آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس">آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</a>
+            <a rel="external" href="./../../learning/password-less-ssh-login-on-ubuntu/index.html" title="لینک مستقیم به آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو">آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</a>
+            <a rel="external" href="./../../learning/add-git-to-sublime/index.html" title="لینک مستقیم به اتصال گیت به سابلایم">اتصال گیت به سابلایم</a>
+            <a rel="external" href="./../chrikt-excel/index.html" title="لینک مستقیم به آموزش ساده و سریع اکسل">آموزش ساده و سریع اکسل</a>
+</nav></div>
+</div>
+      
+  <div id="comments" class="persist-area-r">
+    <div class="persist-header freeheight">
+      <h2><a href="./index.html#comments" title="مرور دیدگاه ها">مرور 11 ديدگاه برای <span>آموزش ساده و سریع راه اندازی سرور سنت او اس</span></a></h2>
+          </div>
+
+
+    <div class="container">
+      
+      <ol class="rectangle-list">
+            <li class="pingback">
+        <p>این نوشته در مطلبی با عنوان <a href="./../guide-to-build-ubuntu-server/index.html" rel="external nofollow ugc" class="url">آموزش ساده و سریع راه اندازی سرور اوبونتو - جواد عوض زاده</a> منتشر شده است</p>
+    </li>
+<!-- #comment-## -->
+    <li class="pingback">
+        <p>این نوشته در مطلبی با عنوان <a href="./../guide-to-setup-git-on-ubuntu/index.html" rel="external nofollow ugc" class="url">آموزش ساده و سریع نصب، راه اندازی و استفاده از گیت - جواد عوض زاده</a> منتشر شده است</p>
+    </li>
+<!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="comment-12713">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-12713" title="141.101.98.46"><img alt="" src="https://secure.gravatar.com/avatar/3207eae3f7ef9e1617b3a16181a3d2aa?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/3207eae3f7ef9e1617b3a16181a3d2aa?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://wWw.MohitAmn.Org/" rel="external nofollow ugc" class="url">Armin</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="23 - جولای - 2015 @ 12:25 ب.ظ">23 جولای 2015 @ 12:25 ب.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام .<br>
+خسته نباشید .<br>
+واقعا بابت اموزش ها ممنون خیلی خوب بودن .<br>
+اگه امکانش هست اموزش نصب Cpanel نال شده هم رو CentOs بزارید .<br>
+خیلی ممنون.<br>
+روز خوبی داشته باشید &#8230;</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-12714">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-12714" title="141.101.98.46"><img alt="" src="https://secure.gravatar.com/avatar/3207eae3f7ef9e1617b3a16181a3d2aa?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/3207eae3f7ef9e1617b3a16181a3d2aa?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://wWw.MohitAmn.Org/" rel="external nofollow ugc" class="url">Armin</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="23 - جولای - 2015 @ 12:26 ب.ظ">23 جولای 2015 @ 12:26 ب.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>این یه مورد هم یادم رفت بگم اگه امکان داشت اموزش نصب<br>
+OwnCloud<br>
+هم بزارید<br>
+😉</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="comment-15371">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-15371" title="94.182.166.202"><img alt="" src="https://secure.gravatar.com/avatar/0cf73714c21b7d86619ba9f9b90f61ed?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/0cf73714c21b7d86619ba9f9b90f61ed?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://shebreh.ir/" rel="external nofollow ugc" class="url">amin</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="17 - نوامبر - 2015 @ 10:05 ب.ظ">17 نوامبر 2015 @ 10:05 ب.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام سایت خوبی داریدمن از روی این آموزش سایتم رو به سرور مجازی انتقال دادم و سرور مجازی خودم رو راه اندازی کردم<br>
+اما ای کاش آموزش بخش راه اندازی اف تی پی و یوزر های اونو مجددا تصحیح میکردید یا حداقل بصورت متنی زیر ویدیو مربوطه میذاشتید چون هنوز مشکل دارم<br>
+درخواست آموزش تنظیم dns رو هم ازتون دارم من یه .com دارم و یه ir و از نیم سرور .com استفاده کردم برای اتصال دامنه ir به سرور مشکلی که دارم هم با آی پی و هم با دات کام سایت بالا میاد که این تو سئو و وب مستر مشکل ایجاد میکنه میشه راهنمایشو به ایمیلم ارسال کنید یا همینجا جواب بدید<br>
+با تشکر فراوان</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    <ul class="children">
+    <li class="comment byuser comment-author-javad bypostauthor odd alt depth-2" id="comment-15389">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-15389" title="94.182.166.202"><img alt="" src="https://secure.gravatar.com/avatar/1386d28d0170ab471606f601c928d2d9?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/1386d28d0170ab471606f601c928d2d9?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="./../../index.html" rel="external nofollow ugc" class="url">جواد عوض زاده</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="18 - نوامبر - 2015 @ 9:54 ق.ظ">18 نوامبر 2015 @ 9:54 ق.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام<br>
+در مورد دی ان اس میتونید از <a href="https://cloudflare.com/" target="_blank">کلودفلر </a>یا <a href="http://arvancloud.com/" target="_blank">ابر آروان</a> استفاده کنید که علاوه بر اون ویژگی های دیگه‌ای رو هم در اختیارتون قرار میده تا مشکلتون رو برطرف کنید.<br>
+برای ریدایرکت همه دامنه ها روی یک دامنه میتونید تو خود سایت این کار رو انجام بدید که همه به یک آدرس اشاره کنن.</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+</ul>
+<!-- .children -->
+</li>
+<!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="comment-15391">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-15391" title="94.182.166.202"><img alt="" src="https://secure.gravatar.com/avatar/0cf73714c21b7d86619ba9f9b90f61ed?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/0cf73714c21b7d86619ba9f9b90f61ed?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://shebreh.ir/" rel="external nofollow ugc" class="url">amin</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="18 - نوامبر - 2015 @ 10:40 ق.ظ">18 نوامبر 2015 @ 10:40 ق.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام خیلی ممنون<br>
+در مورد آموزش ftp لینکی معتبری میتونید معرفی کنید چون بخاطر آموزش های نادرست ۲ بار سایتم دان شد و دوباره راه اندازیش کردم<br>
+در مورد ریدایرکت کردن من پنلی توی cent os ندارم چطور باید اینکار انجام داد آموزشی در این مورد روی سایت دارید؟</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="comment-18396">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-18396" title="173.199.112.182"><img alt="" src="https://secure.gravatar.com/avatar/140df8424135bad5fef2fd2ab3a67e20?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/140df8424135bad5fef2fd2ab3a67e20?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name">ایرانیان</span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="7 - سپتامبر - 2016 @ 8:52 ق.ظ">7 سپتامبر 2016 @ 8:52 ق.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام ممنون از ویدیو های خوبتون<br>
+میشه کلا راه اندازی DNS رو به صورت کامل آموزش بدید من دامنه دارم آی پی هم دارم میخوام ست کنم برای وب سایتم اما به مشکل خوردم و نمیتونم ست کنم</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="comment-18903">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-18903" title="5.160.139.78"><img alt="" src="https://secure.gravatar.com/avatar/2d6363184aedded6669f833205a284d9?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/2d6363184aedded6669f833205a284d9?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://tarahsite.net/" rel="external nofollow ugc" class="url">امین فراست</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="12 - اکتبر - 2016 @ 12:20 ق.ظ">12 اکتبر 2016 @ 12:20 ق.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام<br>
+آقا خیلی دمت گرم . ممنون از اینکه آین آموزش را گذاشتی.<br>
+در فیلم آموزشتون قسمت ۵ گفتید که : chmod 775 /var/www<br>
+ولی در متن پست اوردید : chmod 755 /var/www<br>
+بالاخره کدام شد ؟</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+    <li class="pingback">
+        <p>این نوشته در مطلبی با عنوان <a href="http://b.mrchange.ir/298/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%b1%d8%a7%d9%87-%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%a7%d9%88%d9%84%db%8c%d9%87-%d8%b3%d8%b1%d9%88%d8%b1-%d9%84%db%8c%d9%86%d9%88%da%a9%d" rel="external nofollow ugc" class="url">آموزش راه اندازی اولیه سرور لینوکس CENTOS | مستر چنج</a> منتشر شده است</p>
+    </li>
+<!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="comment-21241">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-21241" title="185.49.87.122"><img alt="" src="https://secure.gravatar.com/avatar/b2d78f16633a57f5109b7bcb4ad7a2bf?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/b2d78f16633a57f5109b7bcb4ad7a2bf?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name">محمد</span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="10 - جولای - 2017 @ 6:38 ب.ظ">10 جولای 2017 @ 6:38 ب.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام<br>
+یه سوال در مورد کار کردن با سایت cloudflare داشتم<br>
+توی این سایت ثبت نام کردم و آدرس دامینم رو توش ثبت کردم اما زمانی که آدرس دامینم رو در مرورگر وارد می کنم صفحه ای رو که تو سرور مجازیم برای تست قرار دادم بالا نمیاد<br>
+میشه راهنماییم کنی که مشکل کار از کجا می تونه باشه ؟؟؟؟</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+      </ol>
+
+          </div>
+
+          <p class="container nocomments">دیدگاه بسته شده است.</p>
+    
+
+
+    
+    <div id="respond" class="container">
+      <div class="cancel-comment-reply">
+        <small><a rel="nofollow" id="cancel-comment-reply-link" href="./index.html#respond" style="display:none;">برای صرف‌نظر کردن از پاسخ‌گویی اینجا را کلیک نمایید.</a></small>
+      </div>
+      
+        <form action="https://evazzadeh.com/blog/wp-comments-post.php" method="post" id="commentform">
+                      <div class="row">
+              <div class="span4">
+                <input required placeholder="نام (اجباری)" type="text" name="author" id="author" value="" tabindex="1" aria-required="true">
+              </div>
+              <div class="span4">
+                <input required placeholder="Email (Require)" type="email" name="email" id="email" value="" tabindex="2" aria-required="true">
+              </div>
+              <div class="span4">
+                <input placeholder="Website" type="text" name="url" id="url" value="" tabindex="3">
+              </div>
+            </div>
+                      <div class="row">
+              <textarea required placeholder="دیدگاه خود را اینجا بنویسید" name="comment" id="comment" rows="4" tabindex="4"></textarea><br>
+            </div>
+            <div class="row">
+              <div class="form-submit">
+                <input name="submit" type="submit" id="submit" tabindex="5" value="ثبت دیدگاه">
+                <input type="hidden" name="comment_post_ID" value="2101" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="923eaf810d"></p>
+<!-- BEGIN: Email notification plugin by Elance360 --><p><label for="subscribe-reloaded"> <select name="subscribe-reloaded" id="subscribe-reloaded"><option value="none">هیچ ایمیلی به من ارسال نکن</option>
+<option value="yes" selected>در صورت پاسخ داده شدن به دیدگاه&zwnj;های من، از طریق ایمیل خبرم کن</option>
+<option value="replies">در صورت ارسال دیدگاه جدید، از طریق ایمیل خبرم کن</option></select></label></p>
+<!-- END: Email notification plugin by Elance360 --><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>              </div>
+            </div>
+        </form>
+          </div>
+  </div>
+      </section>
+
+  <footer>
+   <section>
+    <div id="social">
+     <a target="_blank" id="soc-linkedin" href="http://ir.linkedin.com/in/evazzadeh/" title="رزومه جواد عوض زاده کاکرودی در لینکداین"><i class="fa fa-linkedin"></i></a>
+     <a target="_blank" id="soc-instagram" href="https://instagram.com/evazzadeh" title="تصاویر جواد عوض زاده کاکرودی در اینستاگرام"><i class="fa fa-instagram"></i></a>
+     <a target="_blank" id="soc-google" href="https://plus.google.com/+JavadEvazzadeh" title="پروفایل جواد عوض زاده کاکرودی در گوگل پلاس"><i class="fa fa-google-plus"></i></a>
+     <a target="_blank" id="soc-facebook" href="https://facebook.com/j.evazzadeh" title="صفحه جواد عوض زاده کاکرودی در فیس بوک"><i class="fa fa-facebook"></i></a>
+     <a target="_blank" id="soc-twitter" href="https://twitter.com/evazzadeh" title="توئیت های جواد عوض زاده کاکرودی"><i class="fa fa-twitter"></i></a>
+    </div>
+   </section>
+   <div id="footer">
+    <div id="footerbox" class="container">
+     <div class="row">
+      <div class="span4">
+<h3>دسته‌بندی</h3>
+<div class="info">
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="./../../category/learning/index.html">آموزش</a>
+</li>
+	<li class="cat-item cat-item-510">
+<a href="./../../category/presentation/index.html">ارائه ها</a>
+</li>
+	<li class="cat-item cat-item-476">
+<a href="./../../category/review/index.html">بررسی</a>
+</li>
+	<li class="cat-item cat-item-599">
+<a href="./../../category/tips/index.html">حرف های کوتاه</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="./../../category/handwriting/index.html">دست نوشته ها</a>
+</li>
+	<li class="cat-item cat-item-498">
+<a href="./../../category/applyabroad/index.html">روند اپلای خارج از کشور</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="./../../category/generality/index.html">عمومی</a>
+</li>
+	<li class="cat-item cat-item-69">
+<a href="./../../category/book/index.html">کتاب</a>
+</li>
+	<li class="cat-item cat-item-45">
+<a href="./../../category/worldskills/index.html">مسابقات مهارت</a>
+</li>
+	<li class="cat-item cat-item-509">
+<a href="./../../category/article/index.html">مقالات</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="./../../category/portfolio/index.html">نمونه کارها</a>
+</li>
+	<li class="cat-item cat-item-420">
+<a href="./../../category/learning-video/index.html">ویدیوهای آموزشی</a>
+</li>
+			</ul>
+
+			</div>
+</div>
+<div class="span4">
+<h3>آخرین دیدگاه ها</h3>
+<div class="info"><ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../chrikt-excel/index.html#comment-42278">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../chrikt-excel/index.html#comment-42277">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">علی پناهی</span> در <a href="./../../tips/%d8%a2%d8%af%d9%85-%d8%a8%d8%a7%db%8c%d8%af-%d8%af%d9%84%d8%b4-%d9%be%d8%a7%da%a9-%d8%a8%d8%a7%d8%b4%d9%87%d8%9f/index.html#comment-42268">آدم باید دلش پاک باشه؟</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Mokhtari</span> در <a href="./../chrikt-excel/index.html#comment-42266">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">یلدا</span> در <a href="./../chrikt-excel/index.html#comment-42263">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://kazimirinvestment.com/" rel="external nofollow ugc" class="url">Buy Land in Texas</a></span> در <a href="./../chrikt-excel/index.html#comment-42260">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://ghalbplatform.ir/" rel="external nofollow ugc" class="url">مشاوره</a></span> در <a href="./../../generality/best-dos-game/index.html#comment-42255">بازی های خاطره انگیز و جذاب قدیمی داس</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">ز.ش</span> در <a href="./../chrikt-word/index.html#comment-42252">آموزش ساده و سریع ورد</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">p</span> در <a href="./../table-of-contents/index.html#comment-42238">آموزش ساخت فهرست در Word با فشردن یک دکمه و با کمک استایل ها</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://markazpanel.com/" rel="external nofollow ugc" class="url">ساندویچ پانل</a></span> در <a href="./../../learning/adjust-minimum-flame-heater/index.html#comment-42227">آموزش تصویری تنظیم حداقل شعله بخاری گازی</a>
+</li>
+</ul></div>
+</div>
+		<div class="span4">
+		<h3>آخرین مطالب</h3>
+<div class="info">
+		<ul>
+											<li>
+					<a href="./../../handwriting/finish/index.html">توقف فعالیت سایت عوض‌زاده دات کام</a>
+									</li>
+											<li>
+					<a href="./../../tips/adib/index.html">تغییر نام خانوادگی به ادیب و چند نکته</a>
+									</li>
+											<li>
+					<a href="./../reshare-free/index.html">اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</a>
+									</li>
+											<li>
+					<a href="./../../learning/root-login-over-ssh/index.html">باز کردن قفل ورود به سرور اوبونتو با کاربر روت</a>
+									</li>
+											<li>
+					<a href="./../../review/beyond-vietnam-fa-translation/index.html">ترجمه بخشی از سخنرانی مارتین لوتر کینگ درباره ویتنام</a>
+									</li>
+											<li>
+					<a href="./../../handwriting/chrikt/index.html">چریکت</a>
+									</li>
+											<li>
+					<a href="./../../tips/awe/index.html">در عجبم</a>
+									</li>
+											<li>
+					<a href="./../../learning/guide-to-build-ubuntu-server-with-nginx/index.html">آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</a>
+									</li>
+											<li>
+					<a href="./../../learning/password-less-ssh-login-on-ubuntu/index.html">آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</a>
+									</li>
+											<li>
+					<a href="./../../tips/ermile-time/index.html">پوزش بابت عدم پاسخ‌دهی به سوالات</a>
+									</li>
+					</ul>
+
+		</div>
+</div>     </div>
+    </div>
+    <div id="subfooter" class="row">
+     <div class="container">
+      <p>استفاده از مطالب <a href="./../../index.html" title="جواد عوض زاده | وب نوشته های یک انسان!">عوض زاده دات کام</a> فقط برای مقاصد غیر تجاری و با ذکر منبع منعی ندارد.
+       <span class="english float-left"><a href="./../../index.html" title="جواد عوض زاده">Evazzadeh.com</a><small>&copy; 2011-2023</small></span>
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+ </div>
+
+
+ <section>
+  <div class="menu-outer">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+   <nav>
+    <div id="popup-nav">
+<a href="./../../index.html">عوض زاده دات کام</a>
+<a href="http://saeed.evazzadeh.com/">سعید عوض زاده</a>
+<a href="http://h.evazzadeh.com/">حبیبه عوض زاده</a>
+       <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+    </div>
+   </nav>
+  </div>
+  <a class="menu-close" onclick="return true">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+  </a>
+ </section>
+
+ <script src="./../../blog/wp-content/themes/munin/js/jquery-1.11.0.js"></script>
+ <script src="./../../blog/wp-content/themes/munin/js/custom.js"></script>
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29692827-1', 'auto');
+  ga('send', 'pageview');</script>
+ </body>
+</html>

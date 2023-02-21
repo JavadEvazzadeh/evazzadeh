@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>جواد عوض زاده</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>وب نوشته های یک انسان!</description>
+	<lastBuildDate>Tue, 21 Feb 2023 06:06:42 +0000</lastBuildDate>
+	<language>fa-IR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>توقف فعالیت سایت عوض‌زاده دات کام</title>
+		<link>./../handwriting/finish/index.html</link>
+					<comments>./../handwriting/finish/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Tue, 21 Feb 2023 06:06:42 +0000</pubDate>
+				<category><![CDATA[دست نوشته ها]]></category>
+		<guid isPermaLink="false">./../index.html?p=2729</guid>
+
+					<description><![CDATA[توقف فعالیت سایت عوض‌زاده دات کام و لینک به سایت جدید MrAdib.com و کانال یوتیوب مستر ادیب]]></description>
+		
+					<wfw:commentRss>./../handwriting/finish/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>تغییر نام خانوادگی به ادیب و چند نکته</title>
+		<link>./../tips/adib/index.html</link>
+					<comments>./../tips/adib/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Sat, 02 May 2020 22:47:07 +0000</pubDate>
+				<category><![CDATA[حرف های کوتاه]]></category>
+		<category><![CDATA[آفیس ۲۰۱۹]]></category>
+		<category><![CDATA[ادیب]]></category>
+		<category><![CDATA[جواد ادیب]]></category>
+		<category><![CDATA[جواد عوض زاده کاکرودی]]></category>
+		<guid isPermaLink="false">./../index.html?p=2723</guid>
+
+					<description><![CDATA[سلام بعد از نزدیک به یک سال از آخرین پست و دو سال پس از آخرین مطلب آموزشی دارم این مطلب رو منتشر میکنم! روزگار چه زود میگذرد. آخرین سالگرد تولد سایت که براش خبر منتشر کردم مربوط به ۵ سال پیشه! چند تا نکته رو لازم دیدم که بگم. یک اینکه نزدیک به ۵۰۰ [&#8230;]]]></description>
+		
+					<wfw:commentRss>./../tips/adib/feed/index.html</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</title>
+		<link>./../learning-video/reshare-free/index.html</link>
+					<comments>./../learning-video/reshare-free/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Sat, 18 May 2019 04:57:20 +0000</pubDate>
+				<category><![CDATA[ویدیوهای آموزشی]]></category>
+		<category><![CDATA[آموزش]]></category>
+		<category><![CDATA[اجازه نامه]]></category>
+		<category><![CDATA[عوض زاده]]></category>
+		<category><![CDATA[عوض زاده دات کام]]></category>
+		<category><![CDATA[لایسنس]]></category>
+		<category><![CDATA[مجوز]]></category>
+		<guid isPermaLink="false">./../index.html?p=2710</guid>
+
+					<description><![CDATA[بازنشر رایگان ویدیوهای آموزشی بنده رایگان است و نیاز به کسب اجازه نامه ندارد.]]></description>
+		
+					<wfw:commentRss>./../learning-video/reshare-free/feed/index.html</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>باز کردن قفل ورود به سرور اوبونتو با کاربر روت</title>
+		<link>./../learning/root-login-over-ssh/index.html</link>
+					<comments>./../learning/root-login-over-ssh/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Tue, 11 Dec 2018 20:32:38 +0000</pubDate>
+				<category><![CDATA[آموزش]]></category>
+		<category><![CDATA[آموزش اوبونتو]]></category>
+		<category><![CDATA[اتصال به اوبونتو]]></category>
+		<category><![CDATA[اتصال به سرور]]></category>
+		<category><![CDATA[اوبونتو]]></category>
+		<category><![CDATA[باز کردن قفل]]></category>
+		<category><![CDATA[تنظیم]]></category>
+		<category><![CDATA[تنظیمات]]></category>
+		<category><![CDATA[دسترسی]]></category>
+		<category><![CDATA[راه اندازی اوبونتو]]></category>
+		<category><![CDATA[رفع محدودیت]]></category>
+		<category><![CDATA[روت]]></category>
+		<category><![CDATA[سرور]]></category>
+		<category><![CDATA[سرور اوبونتو]]></category>
+		<category><![CDATA[لاگین به اوبونتو]]></category>
+		<category><![CDATA[لینوکس]]></category>
+		<category><![CDATA[یوزر]]></category>
+		<category><![CDATA[یوزر اوبونتو]]></category>
+		<category><![CDATA[یوزر لینوکس]]></category>
+		<guid isPermaLink="false">./../index.html?p=2669</guid>
+
+					<description><![CDATA[اگه دسترسی ورود با کاربر روت به سیستم‌عامل اوبونتو شما محدود شده و شما نمی‌تونید با یوزر روت به سرور لاگین کنید و وارد بشید، این آموزش رو دنبال کنید.]]></description>
+		
+					<wfw:commentRss>./../learning/root-login-over-ssh/feed/index.html</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ترجمه بخشی از سخنرانی مارتین لوتر کینگ درباره ویتنام</title>
+		<link>./../review/beyond-vietnam-fa-translation/index.html</link>
+					<comments>./../review/beyond-vietnam-fa-translation/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[سارا ترکمنی]]></dc:creator>
+		<pubDate>Wed, 20 Jun 2018 21:09:25 +0000</pubDate>
+				<category><![CDATA[بررسی]]></category>
+		<category><![CDATA[beyond the vietnam]]></category>
+		<category><![CDATA[Martin Luther King]]></category>
+		<category><![CDATA[Martin Luther King Jr.]]></category>
+		<category><![CDATA[simple prose texts]]></category>
+		<category><![CDATA[vietnam]]></category>
+		<category><![CDATA[آمریکا]]></category>
+		<category><![CDATA[آمریکایی]]></category>
+		<category><![CDATA[اخلاق]]></category>
+		<category><![CDATA[اسلحه]]></category>
+		<category><![CDATA[تاریخ]]></category>
+		<category><![CDATA[تاریخ آمریکا]]></category>
+		<category><![CDATA[ترجمه]]></category>
+		<category><![CDATA[ترجمه کتاب نثر متون ساده]]></category>
+		<category><![CDATA[تلاش]]></category>
+		<category><![CDATA[جنگ]]></category>
+		<category><![CDATA[جنگ و صلح]]></category>
+		<category><![CDATA[حقوق شهروندی]]></category>
+		<category><![CDATA[حیات آمریکا]]></category>
+		<category><![CDATA[خشونت]]></category>
+		<category><![CDATA[زبان انگلیسی]]></category>
+		<category><![CDATA[سابقه آمریکا]]></category>
+		<category><![CDATA[سفید پوست]]></category>
+		<category><![CDATA[سیاه پوست]]></category>
+		<category><![CDATA[صلح]]></category>
+		<category><![CDATA[فقرا]]></category>
+		<category><![CDATA[فکر]]></category>
+		<category><![CDATA[کوکتل مولوتف]]></category>
+		<category><![CDATA[کینگ]]></category>
+		<category><![CDATA[لانگستن هیوز]]></category>
+		<category><![CDATA[مارتین لوتر کینگ]]></category>
+		<category><![CDATA[مارتین لوتر کینگ جونیور]]></category>
+		<category><![CDATA[مارک لوتر]]></category>
+		<category><![CDATA[مارک لوتر کینگ]]></category>
+		<category><![CDATA[مردان جوان]]></category>
+		<category><![CDATA[مولوتف کوکتل]]></category>
+		<category><![CDATA[نثر متون ساده]]></category>
+		<category><![CDATA[نجات روح آمریکا]]></category>
+		<category><![CDATA[نگاه]]></category>
+		<category><![CDATA[ویتنام]]></category>
+		<guid isPermaLink="false">./../index.html?p=2648</guid>
+
+					<description><![CDATA[در بخشی از کتاب متون نثر ساده قسمتی از سخنرانی مارک لوتر کینگ که برخلاف عنوان کتاب نثر سختی هم داشت رو نیاز بود ترجمه کنم که با توجه به نبود منبع مناسب و زمانی که روی ترجمه گذاشتیم و شاید استفاده ثانویه توسط دانشجویان زبان انگلیسی اون رو منتشر می‌کنیم.]]></description>
+		
+					<wfw:commentRss>./../review/beyond-vietnam-fa-translation/feed/index.html</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>چریکت</title>
+		<link>./../handwriting/chrikt/index.html</link>
+					<comments>./../handwriting/chrikt/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Sun, 10 Dec 2017 15:23:07 +0000</pubDate>
+				<category><![CDATA[دست نوشته ها]]></category>
+		<category><![CDATA[آموزش]]></category>
+		<category><![CDATA[آموزش چریکت]]></category>
+		<category><![CDATA[آموزش ساده و سریع]]></category>
+		<category><![CDATA[اتمام]]></category>
+		<category><![CDATA[افسوس]]></category>
+		<category><![CDATA[انگیزه]]></category>
+		<category><![CDATA[این روزها]]></category>
+		<category><![CDATA[برنامه نویس]]></category>
+		<category><![CDATA[به‌نام یگانه برنامه‌نویس هستی]]></category>
+		<category><![CDATA[بی جواب]]></category>
+		<category><![CDATA[پایان]]></category>
+		<category><![CDATA[پایان چریکت ها]]></category>
+		<category><![CDATA[تاسف]]></category>
+		<category><![CDATA[تجربه]]></category>
+		<category><![CDATA[تلاش]]></category>
+		<category><![CDATA[تلخ]]></category>
+		<category><![CDATA[توسعه دهنده]]></category>
+		<category><![CDATA[چرا]]></category>
+		<category><![CDATA[چرای بی جواب]]></category>
+		<category><![CDATA[چریکت]]></category>
+		<category><![CDATA[چریکت ارمایل]]></category>
+		<category><![CDATA[چریکت ها]]></category>
+		<category><![CDATA[حکایت]]></category>
+		<category><![CDATA[خط پایان]]></category>
+		<category><![CDATA[خوشبختانه]]></category>
+		<category><![CDATA[دلیل]]></category>
+		<category><![CDATA[دوره آموزشی]]></category>
+		<category><![CDATA[ساده و سریع]]></category>
+		<category><![CDATA[سری اول چریکت]]></category>
+		<category><![CDATA[سری اول چریکت‌ها]]></category>
+		<category><![CDATA[سفته]]></category>
+		<category><![CDATA[شیرین]]></category>
+		<category><![CDATA[ضمانت]]></category>
+		<category><![CDATA[قصه]]></category>
+		<category><![CDATA[کار]]></category>
+		<category><![CDATA[کارگر]]></category>
+		<category><![CDATA[متاسفانه]]></category>
+		<category><![CDATA[مثلا]]></category>
+		<category><![CDATA[وب]]></category>
+		<guid isPermaLink="false">./../index.html?p=2616</guid>
+
+					<description><![CDATA[و اما افراد حاضر در این دوره با نگرش‌ها و اهداف مختلف و با سطح سواد اولیه متفاوت وارد شدند. تنها پیش نیاز ما برای ورود توانایی روشن و خاموش کردن کامپوتر اعلام میشد و جنبه شوخی داشت. یعنی اصلا نیاز به سواد اولیه کامپیوتری نداشتیم.]]></description>
+		
+					<wfw:commentRss>./../handwriting/chrikt/feed/index.html</wfw:commentRss>
+			<slash:comments>26</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>در عجبم</title>
+		<link>./../tips/awe/index.html</link>
+					<comments>./../tips/awe/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Wed, 20 Sep 2017 13:14:59 +0000</pubDate>
+				<category><![CDATA[حرف های کوتاه]]></category>
+		<category><![CDATA[عجبم]]></category>
+		<category><![CDATA[نمک]]></category>
+		<category><![CDATA[نمکدون]]></category>
+		<guid isPermaLink="false">./../index.html?p=2612</guid>
+
+					<description><![CDATA[شاید آدم نباید همه چی رو درک کنه!]]></description>
+		
+					<wfw:commentRss>./../tips/awe/feed/index.html</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</title>
+		<link>./../learning/guide-to-build-ubuntu-server-with-nginx/index.html</link>
+					<comments>./../learning/guide-to-build-ubuntu-server-with-nginx/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Sat, 03 Jun 2017 02:24:37 +0000</pubDate>
+				<category><![CDATA[آموزش]]></category>
+		<category><![CDATA[config nginx]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[nginx]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[php7.1]]></category>
+		<category><![CDATA[phpMyAdmin]]></category>
+		<category><![CDATA[setup ubuntu]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<category><![CDATA[انجین‌اکس]]></category>
+		<category><![CDATA[اوبونتو]]></category>
+		<category><![CDATA[پی‌اچ‌پی]]></category>
+		<category><![CDATA[پی‌اچ‌پی مای‌ادمین]]></category>
+		<category><![CDATA[ساده و سریع]]></category>
+		<category><![CDATA[کانفیک انجین‌اکس]]></category>
+		<category><![CDATA[مای‌اس‌کیو‌ال]]></category>
+		<category><![CDATA[نصب انجین‌اکس]]></category>
+		<category><![CDATA[نصب انجین‌اکس روی اوبونتو]]></category>
+		<guid isPermaLink="false">./../index.html?p=2559</guid>
+
+					<description><![CDATA[در ادامه نحوه‌ی راه‌اندازی ساده و سریع یک سرور اوبونتو با وب‌سرور انجین‌اکس رو به همراه نصب پی‌اچ‌پی و مای‌اس‌کیو‌ال و پی‌اچ‌پی مای‌ادمین آموزش میدیم. وقتشه از آپاچی به انجین‌اکس رفت! Apache to Nginx]]></description>
+		
+					<wfw:commentRss>./../learning/guide-to-build-ubuntu-server-with-nginx/feed/index.html</wfw:commentRss>
+			<slash:comments>16</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</title>
+		<link>./../learning/password-less-ssh-login-on-ubuntu/index.html</link>
+					<comments>./../learning/password-less-ssh-login-on-ubuntu/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Fri, 02 Jun 2017 23:39:25 +0000</pubDate>
+				<category><![CDATA[آموزش]]></category>
+		<category><![CDATA[آموزش ساده و سریع]]></category>
+		<category><![CDATA[اتصال بدون پسورد]]></category>
+		<category><![CDATA[اتصال بدون پسورد به اوبونتو]]></category>
+		<category><![CDATA[اتصال به اوبونتو]]></category>
+		<category><![CDATA[اتصال به سرور]]></category>
+		<category><![CDATA[اوبونتو]]></category>
+		<category><![CDATA[بدون پسورد]]></category>
+		<category><![CDATA[ذخیره پسورد در سرور اوبونتو]]></category>
+		<category><![CDATA[ساده و سریع]]></category>
+		<category><![CDATA[سرور اوبونتو]]></category>
+		<category><![CDATA[لاگین بدون پسورد به اوبونتو]]></category>
+		<category><![CDATA[لاگین به اوبونتو]]></category>
+		<category><![CDATA[لینوکس]]></category>
+		<guid isPermaLink="false">./../index.html?p=2562</guid>
+
+					<description><![CDATA[این آموزش بسیار ساده ولی کاربردی و امنیتی هست. برای اتصال ایمن و آسان به سرورهای لینوکس میتونید شناسه خودتون رو روی سرور ذخیره کنید تا هربار نیاز به وارد کردن پسورد نباشه]]></description>
+		
+					<wfw:commentRss>./../learning/password-less-ssh-login-on-ubuntu/feed/index.html</wfw:commentRss>
+			<slash:comments>9</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>پوزش بابت عدم پاسخ‌دهی به سوالات</title>
+		<link>./../tips/ermile-time/index.html</link>
+					<comments>./../tips/ermile-time/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Mon, 10 Oct 2016 18:27:56 +0000</pubDate>
+				<category><![CDATA[حرف های کوتاه]]></category>
+		<category><![CDATA[ارمایل]]></category>
+		<category><![CDATA[چریکت]]></category>
+		<category><![CDATA[زمان]]></category>
+		<category><![CDATA[سرشمار]]></category>
+		<category><![CDATA[سرویس]]></category>
+		<category><![CDATA[مدیریت زمان]]></category>
+		<guid isPermaLink="false">./../index.html?p=2551</guid>
+
+					<description><![CDATA[اخیرا تماس‌های زیادی در رابطه با درخواست انتشار ویدیوها و مطالب در وب‌سایت‌های آموزشی وجود داره که پاسخ به همه اون‌ها اعلام رضایت در انتشار رایگان مطالب هست و خوشحالم از اینکه این آموزش‌ها از روش‌های متفاوتی پخش بشه:)]]></description>
+		
+					<wfw:commentRss>./../tips/ermile-time/feed/index.html</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

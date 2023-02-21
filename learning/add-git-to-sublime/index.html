@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <base href="./../../index.html">
+ <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
+ <title>اتصال گیت به سابلایم  </title>
+ <meta name="Description" content="اگه از گیت و سابلایم استفاده می‌کنید احتمالا علاقمندید که هنگام کار با کدهاتون،‌ تغییرات اون رو در سابلایم ببینید.">
+ <meta property="og:url" content="./../../index.html">
+ <meta property="og:image" content="./../../blog/wp-content/themes/munin/images/favicon.png">
+ <meta property="og:locale" content="fa_IR">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no, minimal-ui">
+ <!-- [if lte IE 8]><script>document.location = 'http://deadbrowser.ir';</script><![endif] -->
+ <link href="./../../blog/wp-content/themes/munin/style.css" rel="stylesheet" type="text/css" media="all">
+ <link href="./../../blog/wp-content/themes/munin/images/favicon.png" rel="shortcut icon">
+ 
+ </head>
+
+ <body>
+ <header>
+  <div id="header" class="animated">
+   <div id="site-title">
+    <h1 id="logo"><a class="navbar-brand" href="./../../blog/index.html">جواد عوض زاده</a></h1>
+    <nav>
+     <div id="header-nav">
+<a href="./../../donate/index.html">حمایت مالی</a>
+<a href="./../../javad/contact/index.html">تماس با من</a>
+<a href="./../../dl/Resume_Javad_Evazzadeh.pdf">دانلود رزومه</a>
+     </div>
+    </nav>
+   </div>
+  </div>
+ </header>
+
+ <!-- wrapper -->
+ <div id="wrapper">
+<aside>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <nav>
+            <div class="sidebar-nav">
+                <h2 class="sidebar-brand"><a href="./../../blog/index.html">جواد عوض زاده</a></h2>
+                  <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+                <div class="sidebar-items">
+
+                  <a href="./../../category/learning/index.html">آموزش</a>
+<a href="./../../category/learning-video/index.html">ویدیوهای آموزشی</a>
+<a href="./../../category/handwriting/index.html">دست نوشته ها</a>
+<a href="./../../category/generality/index.html">عمومی</a>
+<a href="./../../category/portfolio/index.html">نمونه کارها</a>
+<a href="./../../category/presentation/index.html">ارائه ها</a>
+<a target="_blank" rel="noopener" href="https://sarshomar.com/">سرشمار</a>
+                                      <div>
+                      <a id="donate-nav" href="./../../donate/index.html" target="_blank" title="آیا مطالب این سایت برای شما مفید بوده؟">حمایت مالی</a>
+
+    <form method="post" class="donate-box">
+      <div class="price">
+        <input type="number" name="price" min="1" value="1" placeholder="مقدار" autocomplete="off">
+        <label for="price">هزار تومان</label>
+      </div>
+      <input type="submit" name="PayRequestSubmit" value="این هم کمک من!" class="btn" title="پیشاپیش از حمایت شما سپاسگذاری میکنم">
+    </form>
+                        </div>
+                  </div>
+            </div>
+        </nav>
+
+        <a href="#menu-toggle" id="menu-toggle">
+            <div class="mymenu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+        </a>
+        <div id="motto"></div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+</aside>
+    <section>
+          <div class="persist-area post">
+          <article id="post-2517">
+    <div class="persist-header post-title animated">
+      <h2><a href="./index.html" title="لینک مستقیم به اتصال گیت به سابلایم" rel="bookmark">اتصال گیت به سابلایم</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 19 ژوئن 2016؛ ساعت 10:55 ب.ظ"> 2437 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><img decoding="async" class="alignleft size-full wp-image-2523" src="./../../dl/2016/06/add-git-to-sublime.png" alt="add-git-to-sublime" width="256" height="201">اگه از <a href="https://git-scm.com/" target="_blank">گیت</a> و <a href="https://www.sublimetext.com/" target="_blank">سابلایم</a> استفاده می‌کنید احتمالا علاقمندید که هنگام کار با کدهاتون،‌ تغییرات اون رو مشابه شکل روبرو در سابلایم ببینید. این ویژگی بسیار کاربردی است! اما در این بین ممکنه با مشکلاتی مواجه بشید که در ادامه سعی در رفع اون‌ها داریم.</p>
+<p>مشکل اصلی که ممکنه پیش‌بیاد نشناخته شدن گیت توسط سیستم عامل ویندوز هست که در انتهای این آموزش روش رفع این مشکل رو آموزش دادیم.<span id="more-2517"></span></p>
+<h2 style="direction: ltr;">Package Manager</h2>
+<p>برای استفاده از امکانات اضافی سابلایم آسون ترین اقدام اولیه <a href="https://packagecontrol.io/installation" target="_blank">نصب پکیج منیجر</a> هست. ما فرض رو بر این میگیرم که شما پکیج منیجر رو نصب کرده‌اید.</p>
+<h2 style="direction: ltr;">Git Gutter</h2>
+<p>حالا نیاز به نصب پکیج <a href="https://packagecontrol.io/packages/GitGutter" target="_blank">گیت گاتر</a> دارید. برای نصب اون از طریق پکیج منیجر در نرم افزار سابلایم ابتدا دکمه‌های Ctrl+Shift+P را با هم فشار دهید تا پنجره‌ای در بالای نرم‌افزار مطابق شکل زیر باز شود. عبارت install package را تایپ کرده و انتر را بزنید. بعد از چند ثانیه که لیست نمایش داده شد عبارت GitGutter را تایپ کرده و انتر را بزنید تا پکیج گیت گاتر نصب شود.</p>
+<p><img decoding="async" class="aligncenter size-full wp-image-2525" src="./../../dl/2016/06/sublime-install-package.png" alt="sublime-install-package" width="482" height="157" srcset="./../../dl/2016/06/sublime-install-package.png 482w, ./../../dl/2016/06/sublime-install-package-300x98.png 300w" sizes="(max-width: 482px) 100vw, 482px"></p>
+<p>اگر مشکل خاصی نباشد، <strong>بعد از بستن و باز کردن مجدد سابلایم</strong> مطابق شکل اول در کنار شماره هر خط تغییرات گیت نمایش داده خواهند شد.</p>
+<h2>افزودن گیت به آدرس‌های ویندوز</h2>
+<p>در صورتی که بعد از اقدامات بالا پکیج گیت گاتر عملکرد صحیحی نداشت شما باید آدرس گیت را به ویندوز بشناسونید. البته این شناسوندن جاهای دیگه‌ای بدرد میخوره که خارج از این آموزش هست. مراحل زیر رو به ترتیب انجام بدید.</p>
+<ul>
+<li>روی مای‌کامپیوتر یا فایل اکسپلورر کلیک راست کرده و گزینه properties را بزنید.</li>
+<li>در پنجره باز شده از سمت چپ بالا گزینه Advanced system settings را انتخاب کنید.</li>
+<li>در پنجره باز شده بر روی دکمه Environment variables کلیک کنید تا پنجره‌ای باز شود.</li>
+<li>در پنجره جدید و در قسمت System variables گزینه Path رو پیدا کرده و Edit را بزنید.</li>
+<li>حالا در پنجره جدید دو مقدار زیر رو با استفاده از دکمه New به لیست اضافه کنید.</li>
+</ul>
+<pre style="direction: ltr;">C:\Program Files (x86)\Git\bin
+C:\Program Files (x86)\Git\cmd</pre>
+<p>البته توجه داشته باشید که در صورتی که گیت رو در آدرسی به غیر از مسیر پیش‌فرض نصب کردید،‌ آدرس‌های بالا رو هم جایگزین کنید.</p>
+<p>در انتها لازمه که <strong>سیستم خودتون رو یکبار ریستارت کنید</strong> تا نتیجه رو ببینید!</p>
+          </div>
+  </article>
+        <div class="postTags">
+<a href="./../../tag/advanced-system-settings/index.html" rel="tag">Advanced system settings</a> <a href="./../../tag/git/index.html" rel="tag">git</a> <a href="./../../tag/git-bin/index.html" rel="tag">git bin</a> <a href="./../../tag/git-gutter/index.html" rel="tag">git gutter</a> <a href="./../../tag/gitgutter/index.html" rel="tag">gitgutter</a> <a href="./../../tag/github/index.html" rel="tag">github</a> <a href="./../../tag/gutter/index.html" rel="tag">Gutter</a> <a href="./../../tag/install-gitgutter/index.html" rel="tag">install gitgutter</a> <a href="./../../tag/sublime/index.html" rel="tag">sublime</a> <a href="./../../tag/system-variables/index.html" rel="tag">system variables</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4/index.html" rel="tag">آموزش</a> <a href="./../../tag/%d8%a2%d9%85%d9%88%d8%b2%d8%b4-%d8%ad%d8%b1%d9%81%d9%87%e2%80%8c%d8%a7%db%8c/index.html" rel="tag">آموزش حرفه‌ای</a> <a href="./../../tag/%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-git-%d8%a8%d9%87-sublime/index.html" rel="tag">اتصال git به sublime</a> <a href="./../../tag/%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-%da%af%db%8c%d8%aa-%d8%a8%d9%87-%d8%b3%d8%a7%d8%a8%d9%84%d8%a7%db%8c%d9%85/index.html" rel="tag">اتصال گیت به سابلایم</a> <a href="./../../tag/%d8%b1%d8%b3%d8%aa%d8%a7%d8%b1%d8%aa/index.html" rel="tag">رستارت</a> <a href="./../../tag/%d8%b1%d9%81%d8%b9-%d9%85%d8%b4%da%a9%d9%84/index.html" rel="tag">رفع مشکل</a> <a href="./../../tag/%d8%b1%db%8c%d8%b3%d8%aa%d8%a7%d8%b1%d8%aa-%d9%88%db%8c%d9%86%d8%af%d9%88%d8%b2/index.html" rel="tag">ریستارت ویندوز</a> <a href="./../../tag/%d8%b3%d8%a7%d8%a8%d9%84%d8%a7%db%8c%d9%85/index.html" rel="tag">سابلایم</a> <a href="./../../tag/%da%af%db%8c%d8%aa/index.html" rel="tag">گیت</a> <a href="./../../tag/%d9%88%db%8c%d9%86%d8%af%d9%88%d8%b2/index.html" rel="tag">ویندوز</a> <a href="./../../tag/%d9%88%db%8c%d9%86%d8%af%d9%88%d8%b2-10/index.html" rel="tag">ویندوز 10</a>
+</div>
+        <div class="relatedPosts"><nav class="relatedposts"><h3>در همین رابطه بخوانید</h3>            <a rel="external" href="./../-video/reshare-free/index.html" title="لینک مستقیم به اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی">اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</a>
+            <a rel="external" href="./../../handwriting/chrikt/index.html" title="لینک مستقیم به چریکت">چریکت</a>
+            <a rel="external" href="./../-video/install-wordpress-on-cpanel/index.html" title="لینک مستقیم به آموزش ساده و سریع نصب و راه اندازی وردپرس بر روی سی پنل">آموزش ساده و سریع نصب و راه اندازی وردپرس بر روی سی پنل</a>
+            <a rel="external" href="./../../generality/happy-4th-birthday/index.html" title="لینک مستقیم به چهارمین سالگرد تولد عوض زاده دات کام">چهارمین سالگرد تولد عوض زاده دات کام</a>
+            <a rel="external" href="./../fix-hosts-file-ignored-in-chrome/index.html" title="لینک مستقیم به رفع مشکل نادیده گرفته شدن فایل هاست ویندوز">رفع مشکل نادیده گرفته شدن فایل هاست ویندوز</a>
+            <a rel="external" href="./../powerpoint-pausing-your-presentation/index.html" title="لینک مستقیم به جلوگیری از نمایش پاورپوینت">جلوگیری از نمایش پاورپوینت</a>
+            <a rel="external" href="./../../tips/write-for-what/index.html" title="لینک مستقیم به نوشتن برای تشکر!؟">نوشتن برای تشکر!؟</a>
+</nav></div>
+</div>
+      
+  <div id="comments" class="persist-area-r">
+    <div class="persist-header freeheight">
+      <h2><a href="./index.html#comments" title="مرور دیدگاه ها">مرور 2 ديدگاه برای <span>اتصال گیت به سابلایم</span></a></h2>
+          </div>
+
+
+    <div class="container">
+      
+      <ol class="rectangle-list">
+            <li class="comment even thread-even depth-1" id="comment-29591">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-29591" title="89.235.71.133"><img alt="" src="https://secure.gravatar.com/avatar/9fb1d6abc528e0007d2c9838a2ca03ee?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/9fb1d6abc528e0007d2c9838a2ca03ee?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://AmousOne.ir/" rel="external nofollow ugc" class="url">آرگان</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="6 - ژوئن - 2018 @ 8:47 ب.ظ">6 ژوئن 2018 @ 8:47 ب.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>سلام من خیلی اتفاقی از گوگل اومدم<br>
+.<br>
+با اجازتون من اینجارو برای دوستم تو واتس اپ میفرستم ،، به کارش میاد<br>
+.<br>
+ممنونم واقعا</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="comment-32101">
+        <article class="comment">
+            <div class="row">
+                <div class="span3">
+                    <a href="./index.html#comment-32101" title="108.61.74.147"><img alt="" src="https://secure.gravatar.com/avatar/283e7011870a19318379ffb44dc6981b?s=160&#038;d=identicon&#038;r=g" srcset="https://secure.gravatar.com/avatar/283e7011870a19318379ffb44dc6981b?s=320&#038;d=identicon&#038;r=g 2x" class="avatar avatar-160 photo" decoding="async"></a>
+                </div>
+                <div class="span9">
+                    <div class="comment-meta">
+                        <span class="author-name"><a href="http://pskade.com/" rel="external nofollow ugc" class="url">pskade</a></span>
+                        <span class="reply"></span>
+                        <time pubdate datetime="22 - دسامبر - 2018 @ 8:22 ب.ظ">22 دسامبر 2018 @ 8:22 ب.ظ</time>
+                    </div>
+                                        <div class="comment-content">
+<p>آموزش خوبی بود ممنون</p>
+</div>
+                                    </div>
+
+            </div>
+        </article>
+
+    </li>
+<!-- #comment-## -->
+      </ol>
+
+          </div>
+
+          <p class="container nocomments">دیدگاه بسته شده است.</p>
+    
+
+
+    
+    <div id="respond" class="container">
+      <div class="cancel-comment-reply">
+        <small><a rel="nofollow" id="cancel-comment-reply-link" href="./index.html#respond" style="display:none;">برای صرف‌نظر کردن از پاسخ‌گویی اینجا را کلیک نمایید.</a></small>
+      </div>
+      
+        <form action="https://evazzadeh.com/blog/wp-comments-post.php" method="post" id="commentform">
+                      <div class="row">
+              <div class="span4">
+                <input required placeholder="نام (اجباری)" type="text" name="author" id="author" value="" tabindex="1" aria-required="true">
+              </div>
+              <div class="span4">
+                <input required placeholder="Email (Require)" type="email" name="email" id="email" value="" tabindex="2" aria-required="true">
+              </div>
+              <div class="span4">
+                <input placeholder="Website" type="text" name="url" id="url" value="" tabindex="3">
+              </div>
+            </div>
+                      <div class="row">
+              <textarea required placeholder="دیدگاه خود را اینجا بنویسید" name="comment" id="comment" rows="4" tabindex="4"></textarea><br>
+            </div>
+            <div class="row">
+              <div class="form-submit">
+                <input name="submit" type="submit" id="submit" tabindex="5" value="ثبت دیدگاه">
+                <input type="hidden" name="comment_post_ID" value="2517" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+                <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e2e2bec925"></p>
+<!-- BEGIN: Email notification plugin by Elance360 --><p><label for="subscribe-reloaded"> <select name="subscribe-reloaded" id="subscribe-reloaded"><option value="none">هیچ ایمیلی به من ارسال نکن</option>
+<option value="yes" selected>در صورت پاسخ داده شدن به دیدگاه&zwnj;های من، از طریق ایمیل خبرم کن</option>
+<option value="replies">در صورت ارسال دیدگاه جدید، از طریق ایمیل خبرم کن</option></select></label></p>
+<!-- END: Email notification plugin by Elance360 --><p style="display: none !important;"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="213"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>              </div>
+            </div>
+        </form>
+          </div>
+  </div>
+      </section>
+
+  <footer>
+   <section>
+    <div id="social">
+     <a target="_blank" id="soc-linkedin" href="http://ir.linkedin.com/in/evazzadeh/" title="رزومه جواد عوض زاده کاکرودی در لینکداین"><i class="fa fa-linkedin"></i></a>
+     <a target="_blank" id="soc-instagram" href="https://instagram.com/evazzadeh" title="تصاویر جواد عوض زاده کاکرودی در اینستاگرام"><i class="fa fa-instagram"></i></a>
+     <a target="_blank" id="soc-google" href="https://plus.google.com/+JavadEvazzadeh" title="پروفایل جواد عوض زاده کاکرودی در گوگل پلاس"><i class="fa fa-google-plus"></i></a>
+     <a target="_blank" id="soc-facebook" href="https://facebook.com/j.evazzadeh" title="صفحه جواد عوض زاده کاکرودی در فیس بوک"><i class="fa fa-facebook"></i></a>
+     <a target="_blank" id="soc-twitter" href="https://twitter.com/evazzadeh" title="توئیت های جواد عوض زاده کاکرودی"><i class="fa fa-twitter"></i></a>
+    </div>
+   </section>
+   <div id="footer">
+    <div id="footerbox" class="container">
+     <div class="row">
+      <div class="span4">
+<h3>دسته‌بندی</h3>
+<div class="info">
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="./../../category/learning/index.html">آموزش</a>
+</li>
+	<li class="cat-item cat-item-510">
+<a href="./../../category/presentation/index.html">ارائه ها</a>
+</li>
+	<li class="cat-item cat-item-476">
+<a href="./../../category/review/index.html">بررسی</a>
+</li>
+	<li class="cat-item cat-item-599">
+<a href="./../../category/tips/index.html">حرف های کوتاه</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="./../../category/handwriting/index.html">دست نوشته ها</a>
+</li>
+	<li class="cat-item cat-item-498">
+<a href="./../../category/applyabroad/index.html">روند اپلای خارج از کشور</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="./../../category/generality/index.html">عمومی</a>
+</li>
+	<li class="cat-item cat-item-69">
+<a href="./../../category/book/index.html">کتاب</a>
+</li>
+	<li class="cat-item cat-item-45">
+<a href="./../../category/worldskills/index.html">مسابقات مهارت</a>
+</li>
+	<li class="cat-item cat-item-509">
+<a href="./../../category/article/index.html">مقالات</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="./../../category/portfolio/index.html">نمونه کارها</a>
+</li>
+	<li class="cat-item cat-item-420">
+<a href="./../../category/learning-video/index.html">ویدیوهای آموزشی</a>
+</li>
+			</ul>
+
+			</div>
+</div>
+<div class="span4">
+<h3>آخرین دیدگاه ها</h3>
+<div class="info"><ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../-video/chrikt-excel/index.html#comment-42278">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../-video/chrikt-excel/index.html#comment-42277">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">علی پناهی</span> در <a href="./../../tips/%d8%a2%d8%af%d9%85-%d8%a8%d8%a7%db%8c%d8%af-%d8%af%d9%84%d8%b4-%d9%be%d8%a7%da%a9-%d8%a8%d8%a7%d8%b4%d9%87%d8%9f/index.html#comment-42268">آدم باید دلش پاک باشه؟</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Mokhtari</span> در <a href="./../-video/chrikt-excel/index.html#comment-42266">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">یلدا</span> در <a href="./../-video/chrikt-excel/index.html#comment-42263">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://kazimirinvestment.com/" rel="external nofollow ugc" class="url">Buy Land in Texas</a></span> در <a href="./../-video/chrikt-excel/index.html#comment-42260">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://ghalbplatform.ir/" rel="external nofollow ugc" class="url">مشاوره</a></span> در <a href="./../../generality/best-dos-game/index.html#comment-42255">بازی های خاطره انگیز و جذاب قدیمی داس</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">ز.ش</span> در <a href="./../-video/chrikt-word/index.html#comment-42252">آموزش ساده و سریع ورد</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">p</span> در <a href="./../-video/table-of-contents/index.html#comment-42238">آموزش ساخت فهرست در Word با فشردن یک دکمه و با کمک استایل ها</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://markazpanel.com/" rel="external nofollow ugc" class="url">ساندویچ پانل</a></span> در <a href="./../adjust-minimum-flame-heater/index.html#comment-42227">آموزش تصویری تنظیم حداقل شعله بخاری گازی</a>
+</li>
+</ul></div>
+</div>
+		<div class="span4">
+		<h3>آخرین مطالب</h3>
+<div class="info">
+		<ul>
+											<li>
+					<a href="./../../handwriting/finish/index.html">توقف فعالیت سایت عوض‌زاده دات کام</a>
+									</li>
+											<li>
+					<a href="./../../tips/adib/index.html">تغییر نام خانوادگی به ادیب و چند نکته</a>
+									</li>
+											<li>
+					<a href="./../-video/reshare-free/index.html">اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</a>
+									</li>
+											<li>
+					<a href="./../root-login-over-ssh/index.html">باز کردن قفل ورود به سرور اوبونتو با کاربر روت</a>
+									</li>
+											<li>
+					<a href="./../../review/beyond-vietnam-fa-translation/index.html">ترجمه بخشی از سخنرانی مارتین لوتر کینگ درباره ویتنام</a>
+									</li>
+											<li>
+					<a href="./../../handwriting/chrikt/index.html">چریکت</a>
+									</li>
+											<li>
+					<a href="./../../tips/awe/index.html">در عجبم</a>
+									</li>
+											<li>
+					<a href="./../guide-to-build-ubuntu-server-with-nginx/index.html">آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</a>
+									</li>
+											<li>
+					<a href="./../password-less-ssh-login-on-ubuntu/index.html">آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</a>
+									</li>
+											<li>
+					<a href="./../../tips/ermile-time/index.html">پوزش بابت عدم پاسخ‌دهی به سوالات</a>
+									</li>
+					</ul>
+
+		</div>
+</div>     </div>
+    </div>
+    <div id="subfooter" class="row">
+     <div class="container">
+      <p>استفاده از مطالب <a href="./../../index.html" title="جواد عوض زاده | وب نوشته های یک انسان!">عوض زاده دات کام</a> فقط برای مقاصد غیر تجاری و با ذکر منبع منعی ندارد.
+       <span class="english float-left"><a href="./../../index.html" title="جواد عوض زاده">Evazzadeh.com</a><small>&copy; 2011-2023</small></span>
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+ </div>
+
+
+ <section>
+  <div class="menu-outer">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+   <nav>
+    <div id="popup-nav">
+<a href="./../../index.html">عوض زاده دات کام</a>
+<a href="http://saeed.evazzadeh.com/">سعید عوض زاده</a>
+<a href="http://h.evazzadeh.com/">حبیبه عوض زاده</a>
+       <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+    </div>
+   </nav>
+  </div>
+  <a class="menu-close" onclick="return true">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+  </a>
+ </section>
+
+ <script src="./../../blog/wp-content/themes/munin/js/jquery-1.11.0.js"></script>
+ <script src="./../../blog/wp-content/themes/munin/js/custom.js"></script>
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29692827-1', 'auto');
+  ga('send', 'pageview');</script>
+ </body>
+</html>

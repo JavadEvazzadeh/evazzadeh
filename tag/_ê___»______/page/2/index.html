@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <base href="./../../../../index.html">
+ <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
+ <title>وردپرس |  جواد عوض زاده</title>
+ <meta name="Description" content="وب نوشته های یک انسان!">
+ <meta property="og:url" content="./../../../../index.html">
+ <meta property="og:image" content="./../../../../blog/wp-content/themes/munin/images/favicon.png">
+ <meta property="og:locale" content="fa_IR">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0 maximum-scale=1.0, user-scalable=no, minimal-ui">
+ <!-- [if lte IE 8]><script>document.location = 'http://deadbrowser.ir';</script><![endif] -->
+ <link href="./../../../../blog/wp-content/themes/munin/style.css" rel="stylesheet" type="text/css" media="all">
+ <link href="./../../../../blog/wp-content/themes/munin/images/favicon.png" rel="shortcut icon">
+ 
+ </head>
+
+ <body>
+ <header>
+  <div id="header" class="animated">
+   <div id="site-title">
+    <h1 id="logo"><a class="navbar-brand" href="./../../../../blog/index.html">جواد عوض زاده</a></h1>
+    <nav>
+     <div id="header-nav">
+<a href="./../../../../donate/index.html">حمایت مالی</a>
+<a href="./../../../../javad/contact/index.html">تماس با من</a>
+<a href="./../../../../dl/Resume_Javad_Evazzadeh.pdf">دانلود رزومه</a>
+     </div>
+    </nav>
+   </div>
+  </div>
+ </header>
+
+ <!-- wrapper -->
+ <div id="wrapper">    <section>
+          <header class="page-header">
+        <h2>
+          آرشیو برچسب: <span>وردپرس</span>        </h2>
+
+              </header>
+
+      
+                              <div class="persist-area post">
+                  <article id="post-900">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/deactivate-all-plugins-when-not-able-to-access-wp-admin/index.html" title="لینک مستقیم به غیرفعال سازی افزونه‌های وردپرس در زمان عدم دسترسی به پنل مدیریت" rel="bookmark">غیرفعال سازی افزونه‌های وردپرس در زمان عدم دسترسی به پنل مدیریت</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 15 آوریل 2013؛ ساعت 9:39 ب.ظ"> 3598 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><img decoding="async" class="alignleft size-full wp-image-903" src="./../../../../dl/2013/04/deactivate.png" alt="غیرفعال سازی افزونه‌های وردپرس در زمان عدم دسترسی به پنل مدیریت" width="180" height="180" srcset="./../../../../dl/2013/04/deactivate.png 180w, ./../../../../dl/2013/04/deactivate-150x150.png 150w" sizes="(max-width: 180px) 100vw, 180px">گاهی در زمان ایرادیابی شما نیازمند غیرفعال سازی افزونه‌های وردپرس و فعال سازی تک تک آن‌ها به صورت مجزا هستید. ولی مشکل اینجاست که در بسیاری مواقع شما نمی توانید وارد پنل مدیریت(wp-admin) شوید و به همین دلیل، کار شما کمی سخت می‌شود. اگر تا به حال با صفحه سفید مرگ هنگام ورود به پنل مدیریت وردپرس مواجه شدید کاملا حرفم رو درک می کنید! در این آموزش روش غیرفعال سازی افزونه‌های وردپرس را در زمان عدم دسترسی به پنل مدیریت آموزش خواهم داد.</p>
+<p>دو روش برای غیرفعال سازی افزونه‌های وردپرس در این زمان وجود داره که یکی از اون‌ها از طریق FTP و دیگری از طریق phpMyAdmin هست.</p>
+<h2>غیرفعال سازی همه‌ی افزونه‌های وردپرس از طریق FTP</h2>
+<p>در این روش شما باید از طریق FTP و یا FileManager وارد هاست خودتون بشید. به پوشه wp-content برید. حالا شما پوشه‌ای با نام plugins رو مشاهده ‌می‌کنید که برای غیرفعال سازی تمام افزونه‌ها کافی است که نام این پوشه را تغییر دهید. برای مثال ما نام آن را به plugins_old تغییر دادیم. حالا که این کار رو انجام دادین تمام افزونه‌های وردپرسی شما غیرفعال شدند.</p>
+<p dir="RTL">در بیشتر مواقع با این کار قفل یا مشکل پنل مدیریت برطرف شده و شما می توانید به صورت عادی از سیستم خود استفاده کنید. حالا از طریق wp-login.php به سایت خودتون لاگین کنید. بعد از این کار دوباره از طریق FTP نام پوشه افزونه‌ها را از نامی که تغییر داده‌اید(در مثال ما plugins_old) به نام اصلی برگردانید. پس از تغییر نام مجدد افزونه‌ها به نام اصلی، از پنل مدیریت وردپرس وارد بخش افزونه‌ها شوید. در اینجا می‌بینید که تمام افزونه‌ها غیرفعال شده‌اند. حالا افزونه‌ها را دونه به دونه فعال کنید تا جایی که سیستم دوباره دچار مشکل شود. در این لحظه شما متوجه شده‌اید که کدام افزونه منجر به مشکل شده است. کافی است مجددا مراحل بالا را طی نموده و این بار افزونه‌ی مشکل دار را فعال نکنید!</p>
+<h2>غیرفعال سازی افزونه‌های وردپرس از طریق phpMyAdmin</h2>
+<p>در چنین مشکلی بهترین روش استفاده از FTP برای غیرفعال سازی افزونه هاست. در صورتی که تاکنون با phpMyAdmin  کار نکرده‌اید، پیشنهاد ما به شما استفاده از روش بالا است.</p>
+<p>در دیتابیس وردپرس خودتون وارد جدول wp_options شوید. به دنبال فیلد active_plugins گشته و با ویرایش مقدار آن، عبارت زیر را وارد کنید.</p>
+<pre class="lang:default decode:true" title="Enter this value in active_plugins">a:0:{}</pre>
+<p>امیدوارم این آموزش تونسته باشه، راه شما رو برای حل مشکل کوتاه‌تر کرده باشه&#8230;</p>
+<p><a href="http://www.wpbeginner.com/plugins/how-to-deactivate-all-plugins-when-not-able-to-access-wp-admin/" target="_blank">منبع</a></p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-880">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/wordpress-default-images-to-the-file/index.html" title="لینک مستقیم به تغییر لینک پیش فرض تصاویر هنگام افزودن رسانه در وردپرس" rel="bookmark">تغییر لینک پیش فرض تصاویر هنگام افزودن رسانه در وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 11 آوریل 2013؛ ساعت 9:32 ب.ظ"> 3602 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><a href="./../../../../dl/2013/04/wplogo.png" rel="lightbox[880]"><img decoding="async" class="alignleft size-thumbnail wp-image-882" src="./../../../../dl/2013/04/wplogo-150x150.png" alt="تغییر لینک پیش فرض تصاویر هنگام افزودن رسانه در وردپرس" width="150" height="150"></a>پیدا کردن عنوان برای این مطلب مقداری سخت بود! بهتره توضیح بدم تا کاربرد این مطلب رو درک کنید. یکی از موارد آزار دهنده وردپرس برای من زمانی بود که می خواستم یه پرونده چند رسانه ای مخصوصا عکس رو تو نوشته ها استفاده کنم و زمانی که عکس روی سرور آپلود میشد به صورت پیش فرض لینک به پوسته ی پیوست انتخاب میشد و لینک پیش فرض تصاویر مشکل داشت و این یعنی زمانی که بازدید کننده بر روی عکس کلیک میکنه، به جای باز شدن عکس، فایل مربوط به پوسته ضمیمه باز میشه که جلوه ی مناسبی نداره و کار شما رو برای طراحی پوسته پیوست افزایش میده، البته با همه ی این ها ممکنه که شما هم مثله من از افزونه هایی برای نمایش زیباتر عکس ها به همراه سایه و جلوه های بصری(lightbox or shadowbox) استفاده کنید.</p>
+<p>در این حالت، یعنی زمانی که لینک به جایی بجز آدرس اصلی عکس باشه، این افزونه ها کار نمی کنند و برای استفاده از ویژگی های این مدل افزونه ها، شما نیاز به لینک شدن عکس ها به آدرس اصلی اون ها دارید. فکر می کنم حالا متوجه کاربرد این ترفند شدید.</p>
+<p>برای این کار شما باید وارد صفحه تنظیمات مخفی وردپرس بشید! تا حالا این صفحه رو ندیدین! درسته چون مخفیه! برای دسترسی به این صفحه از طریق آدرس زیر وارد بشین</p>
+<pre class="lang:default decode:true" title="secret WordPress options page">http://www.example.com/wp-admin/options.php</pre>
+<p>فکر نمی کنم لازم به گفتن باشه که به جای example.com آدرس سایت خودتون رو بنویسید.</p>
+<p>در صفحه تنظیمات مخفی وردپرس دنبال فیلدی با نام image_default_link_type بگردید. نرسیده به وسط می تونید پیداش کنید. سه حالت می تونه وجود داشته باشه که به بررسی اون ها می پدازیم.</p>
+<ul>
+<li>خالی باشه! در این صورت به صورت پیش فرض هیچ لینکی به هیچ جایی ایجاد نمیشه و در صورت نیاز باید بعد از آپلود لینک رو وارد کنید.</li>
+<li>file :در صورتی که کلمه file رو در این فیلد وارد کنید، به صورت پیش فرض لینک به آدرس فایل آپلود شده قرار داده میشه. این همون چیزیه که می خوایم. در این صورت لینک ها به صورت  http://www.example.com/wp-content/image.png در میاد.</li>
+<li>post : این گزینه همون گزینه پیش فرض انتخابیه که لینک رو به پوسته ضمیمه ایجاد میکنه. در موارد خاص اگه نیاز بود استفاده کنید</li>
+</ul>
+<p>به نظر کامل میرسه، امیدوارم این آموزش یه روزی به کارتون بیاد و شما رو هم مثه من از شر تماس های مکرر با کاربر سایت بابت تذکر این نکته راحت کنه! برای دیدن کاربرد افزونه بر روی عکس ضمیمه شده در این مطلب کلیک کنید</p>
+<p><a href="http://www.cubehouse.org/blog/2011/02/24/wordpress-how-to-default-images-to-link-to-the-file/" target="_blank">منبع</a></p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-854">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/wordpress-optimize-2trick/index.html" title="لینک مستقیم به دو نکته برای بهینه سازی وردپرس" rel="bookmark">دو نکته برای بهینه سازی وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 25 فوریه 2013؛ ساعت 6:30 ب.ظ"> 3648 روز پیش</abbr></span>
+
+    <div class="container details">
+      <h2>بهینه سازی وردپرس</h2>
+<p>تو مدت زمانی که وارد طراحی وب شدم، با سیستم های مختلفی کار کردم که در بین اون ها بیشتر به وردپرس علاقمند شدم و یه سری وب سایت رو باهاش راه اندازی کردم. یک سری از نکاتی که مورد توجه من قرار گرفته و همیشه یکی از مدل های کاریم بوده، سفارشی سازی و بهینه سازی سیستم هست.  در اینجا سعی می کنم کمی از تجربیاتم رو برای بهینه سازی وردپرس بیان کنم، شاید در آینده بیشتر در این باره صحبت کردم. قبل از شروع توصیه می کنم از دیتابیس وب سایتتون یه نسخه پشتیبان بگیرید.<img decoding="async" class="aligncenter size-full wp-image-858" src="./../../../../dl/2013/02/wordpress-optimization.png" alt="بهینه سازی وردپرس" width="500" height="250" srcset="./../../../../dl/2013/02/wordpress-optimization.png 500w, ./../../../../dl/2013/02/wordpress-optimization-300x150.png 300w" sizes="(max-width: 500px) 100vw, 500px"></p>
+<h2>تغییر آدرس پوشه wp-content  محتوای وردپرس</h2>
+<p>همونطور که می دونید، محتوای وردپرس (شامل پوسته ها، افزونه ها، فایل های آپلود شده و&#8230;) در پوشه ای با نام wp-content قرار گرفته، اگه اشتباه نکنم از نسخه 2.7 به بعد(تا الان که 3.5 اومده)، این امکان در وردپرس ایجاد شده که بشه نام این پوشه رو تغییر داد، برای این کار تنها دو خط کد رو باید به فایل wp-config.php موجود در پوشه اصلی سایت(root) افزود. پس برای شروع فایل wp-config.php موجود در روت وب سایتتون رو باز کنید. تو خط آخر، عبارت زیر رو پیدا کنید.</p>
+<pre class="lang:php decode:true" title="Find this line">require_once(ABSPATH . 'wp-settings.php');</pre>
+<p>با این خط کاری نداریم، این خط رو برای این پیدا کردیم که کدهامون رو قبل از اون باید قرار بدیم. یعنی کدهایی رو که می خوایم بگیم و قبل از کد بالا اضافه کنید.</p>
+<p>حالا دو خط زیر رو به فایلی که باز کردیم (wp-config.php درست قبل از عبارتی که بالا گفتیم)اضافه کنید.</p>
+<pre class="lang:default decode:true" title="Add to wp-content">define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/data' ); 
+define( 'WP_CONTENT_URL', 'https://evazzadeh.com/data');</pre>
+<p>تو خط اول توسط دستور WP_CONTENT_DIR وظیفش معرفی نام پوشه ی جدید برای wp-content بوده و خط دوم توسط دستور WP_CONTENT_URL وظیفه ی معرفی آدرس دسترسی به اون پوشه رو داره. پس در خط اول به جای data نام پوشه ی جدیدی رو که دوست دارین، محتوای وردپرسیتون رو در اونجا قرار بدین وارد کرده و در خط دوم آدرس کامل دسترسی به اون رو بنویسید. بدیهی است که تو خط دوم شما باید به جای evazzadeh.com آدرس سایت خودتون رو بنویسید!</p>
+<p>صبر کنید! هنوز کار تموم نشده و شما باید نام پوشه ی wp-content رو به نامی که در خط اول وارد کردید (در اینجا data) تغییر بدید. توجه داشته باشین که با این کار ممکنه بعضی از پوسته ها و یا افزونه ها که از آدرس دهی مطلق استفاده کردند، از کار بیفتند. در این صورت شما یا باید از خیر اون پوسته یا افزونه بگذرید و یا اون رو تغییر بدید یا کلا بیخیال این روش بشید! انتخاب با شماست.</p>
+<h2>تغییر مسیر ذخیره سازی فایل های آپلودی</h2>
+<p>برای کسانی که وردپرس نسخه 3.5 به بعد رو نصب می کنن، گزینه ی تغییر مسیر ذخیره سازی فایل ها موجود در تنظیم wp-config.php رو ویرایش می کنیم. لازم به ذکره که انجام این کار توسط افزونه و یا دستکاری دیتابیس هم ممکنه ولی این روش مطمئن و راحته. باید توجه داشته باشید که شما با انجام مورد بالایی کلا خودتون رو از این مورد بی نیاز کردین، ولی شاید مشکلی که در انتهای مورد بالایی ذکر شد براتون اتفاق بیفته، یعنی پوسته یا افزونه ای ناسازگار باشه که در این صورت این روش کارتون رو راه میندازه. برای این کار کد زیر رو به فایل اضافه کنید.</p>
+<pre class="lang:php decode:true" title="Change dafault upload location in wordpress by wp-config.php">define( 'UPLOADS', 'media' );</pre>
+<p>در این خط کافیه که کلمه media رو با کلمه مورد نظرتون عوض کنید. به همین راحتی! حالا پوشه ای با این نام در روت وب سایتتون بسازید و از این به بعد تمام فایل ها در اونجا آپلود می شوند.</p>
+<p>اگه خواستید فایل های آپلودیتون در همون پوشه محتوای وردپرس یعنی wp-content بوده و تنها نام اون تغییر کنه از کد زیر می تونید به جای کد بالا استفاده کنید.</p>
+<pre class="lang:php decode:true" title="Change dafault upload location in wordpress by wp-config.php">define( 'UPLOADS', 'wp-content/media' );</pre>
+<p>امیدوارم این مطالب بدردتون بخوره و از وردپرس لذت ببرید! اگه سوالی بود حتما بپرسید تا بتونم کمکتون کنم. موفق باشید&#8230;</p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-774">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/all-post-status/index.html" title="لینک مستقیم به انواع نوشته در وردپرس" rel="bookmark">انواع نوشته در وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 4 ژانویه 2013؛ ساعت 1:15 ق.ظ"> 3700 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p>شاید شما هم یه زمانی نیاز داشته باشید به هر دلیلی تمام یا یکی از انواع نوشته وردپرسی رو به نمایش بگذارید و همونطور که میدونید در وردپرس به صورت پیش فرض نوشته های منتشر شده به نمایش درمیان، که شاید شما مثل من نیاز داشته باشید که نوشته هایی رو که در آینده منتشر خواهند شد رو هم در پرس و جوی خودتون داشته باشید.<img decoding="async" class="aligncenter size-full wp-image-791" src="./../../../../dl/2013/01/wordpress.jpg" alt="وردپرس" width="500" height="319" srcset="./../../../../dl/2013/01/wordpress.jpg 500w, ./../../../../dl/2013/01/wordpress-300x191.jpg 300w" sizes="(max-width: 500px) 100vw, 500px"></p>
+<p>برای این کار از پارامتر &#8216;post_status&#8217;  استفاده می کنیم. حالت های مختلفی که تا یه امروز (نسخه 3.5 وردپرس) پشتیبانی میشه به شرح زیر است:</p>
+<pre class="lang:default decode:true" dir="ltr">using the post_status parameter, ie. 'post_status' =&gt; 'any'
+* 'publish' - a published post or page
+* 'pending' - post is pending review
+* 'draft' - a post in draft status
+* 'auto-draft' - a newly created post, with no content
+* 'future' - a post to publish in the future
+* 'private' - not visible to users who are not logged in
+* 'inherit' - a revision. see get_children.
+* 'trash' - post is in trashbin. added with Version 2.9.</pre>
+<p>اگه با نوع پست (post type) آشنایی داشته باشید و یا در وب سایتتون از اون استفاده کردید و خواهان استفاده ترکیبی از مورد بالا و نوع خاصی از نوشته هستید می تونید از الگوی زیر استفاده کنید.</p>
+<pre class="lang:php decode:true" dir="ltr">$query = array(
+    'post_type' =&gt; 'my-post-type',
+    'post_status' =&gt; array('publish', 'pending', 'draft', 'auto-draft', 'future', 'private', 'inherit', 'trash')    
+);
+query_posts($query);</pre>
+<p>به جای my-post-type می تونید از نامی رو که برای نوع پستتون تعریف کردید استفاده کنید.</p>
+<p>در آینده شاید یه توضیح کامل درباره پست تایپ در وردپرس دادم، چیزی که هنوز اون طور که باید شناخته نشده! موفق باشید</p>
+          </div>
+  </article>
+            </div>
+                        <div class="persist-area post">
+                  <article id="post-760">
+    <div class="persist-header post-title animated">
+      <h2><a href="./../../../../learning/wordpress-delete-empty-posts/index.html" title="لینک مستقیم به حذف نوشته های خالی از  متن در وردپرس" rel="bookmark">حذف نوشته های خالی از  متن در وردپرس</a></h2>
+      <div class="format-box">
+        <i class="fa fa-file"></i>      </div>
+    </div>
+    <span class="clock"> <i class="fa fa-clock-o"></i> <abbr title="نوشته شده در 27 دسامبر 2012؛ ساعت 6:07 ب.ظ"> 3708 روز پیش</abbr></span>
+
+    <div class="container details">
+      <p><img decoding="async" class="alignleft  wp-image-794" src="./../../../../dl/2012/12/wordpress-logo.jpg" alt="وردپرس" width="180" height="180" srcset="./../../../../dl/2012/12/wordpress-logo.jpg 225w, ./../../../../dl/2012/12/wordpress-logo-150x150.jpg 150w" sizes="(max-width: 180px) 100vw, 180px"><br>
+شاید شما هم مثل من سایت یا سایتهایی رو داشته باشید که بصورت خودکار از طریق آر اس اس محتوا تولید می کنند. اگه اینطور باشه حتما میدونید که گاهی به دلیل یک سری مشکلاتی که ممکنه برای آر اس اس منبع بوجود بیاد، پست های شما خالی از هرگونه متنی باشه. اگه بخوام بیشتر و راحت تر توضیح بدم میتونم بگم که بعد از مدتی شما تعداد زیادی پست دارید که یه تعدادی از اون ها (شاید حدود 10 تا 50 درصد یا حتی بیشتر!) خالی از متن هستند یعنی پلاگین شما فقط تونسته عنوان نوشته رو بخونه و برای دریافت متن به هر دلیلی با مشکل مواجه شده، در حال حاضر ما سعی می کنیم که این نوشته های خالی از متن رو پاک کنیم. برای حذف نوشته ها با ما همراه باشید&#8230;<br>
+<a class="more-link" title="ادامه مطلب و دسترسی مستقیم به حذف نوشته های خالی از  متن در وردپرس" href="./../../../../learning/wordpress-delete-empty-posts/index.html" rel="bookmark">ادامه دارد <span class="meta-nav">&raquo;&raquo;&raquo;</span></a></p>
+          </div>
+  </article>
+            </div>
+                            <div id="navigation" class="clearfix">
+        <div class="wp-pagenavi" role="navigation">
+<span class="pages">صفحه 2 از 3</span><a class="previouspostslink" rel="prev" aria-label="برگه قبلی" href="./../../index.html">«</a><a class="page smaller" title="صفحه 1" href="./../../index.html">1</a><span aria-current="page" class="current">2</span><a class="page larger" title="صفحه 3" href="./../3/index.html">3</a><a class="nextpostslink" rel="next" aria-label="برگه بعدی" href="./../3/index.html">»</a>
+</div>    
+    </div>
+
+              </section>
+<aside>
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <nav>
+            <div class="sidebar-nav">
+                <h2 class="sidebar-brand"><a href="./../../../../blog/index.html">جواد عوض زاده</a></h2>
+                  <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+                <div class="sidebar-items">
+
+                  <a href="./../../../../category/learning/index.html">آموزش</a>
+<a href="./../../../../category/learning-video/index.html">ویدیوهای آموزشی</a>
+<a href="./../../../../category/handwriting/index.html">دست نوشته ها</a>
+<a href="./../../../../category/generality/index.html">عمومی</a>
+<a href="./../../../../category/portfolio/index.html">نمونه کارها</a>
+<a href="./../../../../category/presentation/index.html">ارائه ها</a>
+<a target="_blank" rel="noopener" href="https://sarshomar.com/">سرشمار</a>
+                                      <div>
+                      <a id="donate-nav" href="./../../../../donate/index.html" target="_blank" title="آیا مطالب این سایت برای شما مفید بوده؟">حمایت مالی</a>
+
+    <form method="post" class="donate-box">
+      <div class="price">
+        <input type="number" name="price" min="1" value="1" placeholder="مقدار" autocomplete="off">
+        <label for="price">هزار تومان</label>
+      </div>
+      <input type="submit" name="PayRequestSubmit" value="این هم کمک من!" class="btn" title="پیشاپیش از حمایت شما سپاسگذاری میکنم">
+    </form>
+                        </div>
+                  </div>
+            </div>
+        </nav>
+
+        <a href="#menu-toggle" id="menu-toggle">
+            <div class="mymenu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+        </a>
+        <div id="motto"></div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+</aside>  <footer>
+   <section>
+    <div id="social">
+     <a target="_blank" id="soc-linkedin" href="http://ir.linkedin.com/in/evazzadeh/" title="رزومه جواد عوض زاده کاکرودی در لینکداین"><i class="fa fa-linkedin"></i></a>
+     <a target="_blank" id="soc-instagram" href="https://instagram.com/evazzadeh" title="تصاویر جواد عوض زاده کاکرودی در اینستاگرام"><i class="fa fa-instagram"></i></a>
+     <a target="_blank" id="soc-google" href="https://plus.google.com/+JavadEvazzadeh" title="پروفایل جواد عوض زاده کاکرودی در گوگل پلاس"><i class="fa fa-google-plus"></i></a>
+     <a target="_blank" id="soc-facebook" href="https://facebook.com/j.evazzadeh" title="صفحه جواد عوض زاده کاکرودی در فیس بوک"><i class="fa fa-facebook"></i></a>
+     <a target="_blank" id="soc-twitter" href="https://twitter.com/evazzadeh" title="توئیت های جواد عوض زاده کاکرودی"><i class="fa fa-twitter"></i></a>
+    </div>
+   </section>
+   <div id="footer">
+    <div id="footerbox" class="container">
+     <div class="row">
+      <div class="span4">
+<h3>دسته‌بندی</h3>
+<div class="info">
+			<ul>
+					<li class="cat-item cat-item-3">
+<a href="./../../../../category/learning/index.html">آموزش</a>
+</li>
+	<li class="cat-item cat-item-510">
+<a href="./../../../../category/presentation/index.html">ارائه ها</a>
+</li>
+	<li class="cat-item cat-item-476">
+<a href="./../../../../category/review/index.html">بررسی</a>
+</li>
+	<li class="cat-item cat-item-599">
+<a href="./../../../../category/tips/index.html">حرف های کوتاه</a>
+</li>
+	<li class="cat-item cat-item-4">
+<a href="./../../../../category/handwriting/index.html">دست نوشته ها</a>
+</li>
+	<li class="cat-item cat-item-498">
+<a href="./../../../../category/applyabroad/index.html">روند اپلای خارج از کشور</a>
+</li>
+	<li class="cat-item cat-item-1">
+<a href="./../../../../category/generality/index.html">عمومی</a>
+</li>
+	<li class="cat-item cat-item-69">
+<a href="./../../../../category/book/index.html">کتاب</a>
+</li>
+	<li class="cat-item cat-item-45">
+<a href="./../../../../category/worldskills/index.html">مسابقات مهارت</a>
+</li>
+	<li class="cat-item cat-item-509">
+<a href="./../../../../category/article/index.html">مقالات</a>
+</li>
+	<li class="cat-item cat-item-8">
+<a href="./../../../../category/portfolio/index.html">نمونه کارها</a>
+</li>
+	<li class="cat-item cat-item-420">
+<a href="./../../../../category/learning-video/index.html">ویدیوهای آموزشی</a>
+</li>
+			</ul>
+
+			</div>
+</div>
+<div class="span4">
+<h3>آخرین دیدگاه ها</h3>
+<div class="info"><ul id="recentcomments">
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42278">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">حمید</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42277">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">علی پناهی</span> در <a href="./../../../../tips/%d8%a2%d8%af%d9%85-%d8%a8%d8%a7%db%8c%d8%af-%d8%af%d9%84%d8%b4-%d9%be%d8%a7%da%a9-%d8%a8%d8%a7%d8%b4%d9%87%d8%9f/index.html#comment-42268">آدم باید دلش پاک باشه؟</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">Mokhtari</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42266">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">یلدا</span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42263">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://kazimirinvestment.com/" rel="external nofollow ugc" class="url">Buy Land in Texas</a></span> در <a href="./../../../../learning-video/chrikt-excel/index.html#comment-42260">آموزش ساده و سریع اکسل</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://ghalbplatform.ir/" rel="external nofollow ugc" class="url">مشاوره</a></span> در <a href="./../../../../generality/best-dos-game/index.html#comment-42255">بازی های خاطره انگیز و جذاب قدیمی داس</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">ز.ش</span> در <a href="./../../../../learning-video/chrikt-word/index.html#comment-42252">آموزش ساده و سریع ورد</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link">p</span> در <a href="./../../../../learning-video/table-of-contents/index.html#comment-42238">آموزش ساخت فهرست در Word با فشردن یک دکمه و با کمک استایل ها</a>
+</li>
+<li class="recentcomments">
+<span class="comment-author-link"><a href="https://markazpanel.com/" rel="external nofollow ugc" class="url">ساندویچ پانل</a></span> در <a href="./../../../../learning/adjust-minimum-flame-heater/index.html#comment-42227">آموزش تصویری تنظیم حداقل شعله بخاری گازی</a>
+</li>
+</ul></div>
+</div>
+		<div class="span4">
+		<h3>آخرین مطالب</h3>
+<div class="info">
+		<ul>
+											<li>
+					<a href="./../../../../handwriting/finish/index.html">توقف فعالیت سایت عوض‌زاده دات کام</a>
+									</li>
+											<li>
+					<a href="./../../../../tips/adib/index.html">تغییر نام خانوادگی به ادیب و چند نکته</a>
+									</li>
+											<li>
+					<a href="./../../../../learning-video/reshare-free/index.html">اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</a>
+									</li>
+											<li>
+					<a href="./../../../../learning/root-login-over-ssh/index.html">باز کردن قفل ورود به سرور اوبونتو با کاربر روت</a>
+									</li>
+											<li>
+					<a href="./../../../../review/beyond-vietnam-fa-translation/index.html">ترجمه بخشی از سخنرانی مارتین لوتر کینگ درباره ویتنام</a>
+									</li>
+											<li>
+					<a href="./../../../../handwriting/chrikt/index.html">چریکت</a>
+									</li>
+											<li>
+					<a href="./../../../../tips/awe/index.html">در عجبم</a>
+									</li>
+											<li>
+					<a href="./../../../../learning/guide-to-build-ubuntu-server-with-nginx/index.html">آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</a>
+									</li>
+											<li>
+					<a href="./../../../../learning/password-less-ssh-login-on-ubuntu/index.html">آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</a>
+									</li>
+											<li>
+					<a href="./../../../../tips/ermile-time/index.html">پوزش بابت عدم پاسخ‌دهی به سوالات</a>
+									</li>
+					</ul>
+
+		</div>
+</div>     </div>
+    </div>
+    <div id="subfooter" class="row">
+     <div class="container">
+      <p>استفاده از مطالب <a href="./../../../../index.html" title="جواد عوض زاده | وب نوشته های یک انسان!">عوض زاده دات کام</a> فقط برای مقاصد غیر تجاری و با ذکر منبع منعی ندارد.
+       <span class="english float-left"><a href="./../../../../index.html" title="جواد عوض زاده">Evazzadeh.com</a><small>&copy; 2011-2023</small></span>
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+
+ </div>
+
+
+ <section>
+  <div class="menu-outer">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+   <nav>
+    <div id="popup-nav">
+<a href="./../../../../index.html">عوض زاده دات کام</a>
+<a href="http://saeed.evazzadeh.com/">سعید عوض زاده</a>
+<a href="http://h.evazzadeh.com/">حبیبه عوض زاده</a>
+       <form method="get" class="search-form" action="https://evazzadeh.com/" role="search">
+    <input type="search" name="s" placeholder="جستجو &hellip;" required autocomplete="off">
+    <button><i class="fa fa-search"></i></button>
+  </form>
+    </div>
+   </nav>
+  </div>
+  <a class="menu-close" onclick="return true">
+   <div class="menu-icon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+   </div>
+  </a>
+ </section>
+
+ <script src="./../../../../blog/wp-content/themes/munin/js/jquery-1.11.0.js"></script>
+ <script src="./../../../../blog/wp-content/themes/munin/js/custom.js"></script>
+ <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29692827-1', 'auto');
+  ga('send', 'pageview');</script>
+ </body>
+</html>

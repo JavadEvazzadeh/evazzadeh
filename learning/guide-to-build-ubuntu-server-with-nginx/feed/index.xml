@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	دیدگاه‌ها برای: آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>وب نوشته های یک انسان!</description>
+	<lastBuildDate>Wed, 17 Mar 2021 10:50:26 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		توسط: Khadem hussain		</title>
+		<link>./../index.html#comment-39627</link>
+
+		<dc:creator><![CDATA[Khadem hussain]]></dc:creator>
+		<pubDate>Wed, 17 Mar 2021 10:50:26 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39627</guid>
+
+					<description><![CDATA[Khademhussainalizada]]></description>
+			<content:encoded><![CDATA[<p>Khademhussainalizada</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد ادیب		</title>
+		<link>./../index.html#comment-39403</link>
+
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Wed, 27 Jan 2021 14:23:12 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39403</guid>
+
+					<description><![CDATA[برای نصب زیپ و آنزیپ
+&lt;code&gt;sudo apt install zip unzip&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>برای نصب زیپ و آنزیپ<br />
+<code>sudo apt install zip unzip</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد ادیب		</title>
+		<link>./../index.html#comment-39398</link>
+
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 22:57:30 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39398</guid>
+
+					<description><![CDATA[برای نصب اکستنشن کار با تصاویر
+&lt;code&gt;sudo apt install php-imagick&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>برای نصب اکستنشن کار با تصاویر<br />
+<code>sudo apt install php-imagick</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد ادیب		</title>
+		<link>./../index.html#comment-39395</link>
+
+		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
+		<pubDate>Tue, 26 Jan 2021 12:47:11 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39395</guid>
+
+					<description><![CDATA[برای نصب آخرین نسخه phpmyadmin و همخوانی با sql8
+&lt;code&gt;sudo add-apt-repository ppa:phpmyadmin/ppa&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>برای نصب آخرین نسخه phpmyadmin و همخوانی با sql8<br />
+<code>sudo add-apt-repository ppa:phpmyadmin/ppa</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: محمد جواد قاسمی		</title>
+		<link>./../index.html#comment-37993</link>
+
+		<dc:creator><![CDATA[محمد جواد قاسمی]]></dc:creator>
+		<pubDate>Thu, 30 Jul 2020 14:38:40 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-37993</guid>
+
+					<description><![CDATA[نصب phpmyadmin با composer بهتره.
+اخرین نسخه رو نصب می کنید. ( نسخه ای که توی مخزن اوبونتو هست چند وقتیه همیشه warning داره و برای حل کردنش باید دستی تو کانفیگش برد ) 
+https://docs.phpmyadmin.net/en/latest/setup.html
+
+composer create-project phpmyadmin/phpmyadmin .]]></description>
+			<content:encoded><![CDATA[<p>نصب phpmyadmin با composer بهتره.<br />
+اخرین نسخه رو نصب می کنید. ( نسخه ای که توی مخزن اوبونتو هست چند وقتیه همیشه warning داره و برای حل کردنش باید دستی تو کانفیگش برد )<br />
+<a href="https://docs.phpmyadmin.net/en/latest/setup.html" rel="nofollow ugc">https://docs.phpmyadmin.net/en/latest/setup.html</a></p>
+<p>composer create-project phpmyadmin/phpmyadmin .</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد عوض زاده		</title>
+		<link>./../index.html#comment-34350</link>
+
+		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
+		<pubDate>Sat, 19 Oct 2019 10:05:43 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-34350</guid>
+
+					<description><![CDATA[تنظیمات مورد نیاز توی فایل php.ini هم به نام زیر هستند
+&lt;code&gt;sudo nano /etc/php/7.4/fpm/php.ini&lt;/code&gt;
+
+&lt;code&gt;memory_limit = 256M
+upload_max_filesize = 100M
+max_execution_time = 360&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>تنظیمات مورد نیاز توی فایل php.ini هم به نام زیر هستند<br />
+<code>sudo nano /etc/php/7.4/fpm/php.ini</code></p>
+<p><code>memory_limit = 256M<br />
+upload_max_filesize = 100M<br />
+max_execution_time = 360</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد عوض زاده		</title>
+		<link>./../index.html#comment-34349</link>
+
+		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
+		<pubDate>Sat, 19 Oct 2019 08:47:28 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-34349</guid>
+
+					<description><![CDATA[برای دسترسی به امکانات بیشتر در انجین اکس می‌تونید کد زیر رو اجرا کنید.
+&lt;code&gt;apt install nginx-extras&lt;/code&gt;]]></description>
+			<content:encoded><![CDATA[<p>برای دسترسی به امکانات بیشتر در انجین اکس می‌تونید کد زیر رو اجرا کنید.<br />
+<code>apt install nginx-extras</code></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: جواد عوض زاده		</title>
+		<link>./../index.html#comment-32036</link>
+
+		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
+		<pubDate>Tue, 11 Dec 2018 21:32:36 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-32036</guid>
+
+					<description><![CDATA[در پاسخ به &lt;a href=&quot;./../index.html#comment-31702&quot;&gt;رضا&lt;/a&gt;.
+
+نحوه نصب نسخه ۷.۳ که همین چند روز پیش اومده گذاشته شد. بخش مای‌اس‌کیو‌ال هم بروز شد.]]></description>
+			<content:encoded><![CDATA[<p>در پاسخ به <a href="./../index.html#comment-31702">رضا</a>.</p>
+<p>نحوه نصب نسخه ۷.۳ که همین چند روز پیش اومده گذاشته شد. بخش مای‌اس‌کیو‌ال هم بروز شد.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: علی		</title>
+		<link>./../index.html#comment-32015</link>
+
+		<dc:creator><![CDATA[علی]]></dc:creator>
+		<pubDate>Fri, 07 Dec 2018 19:53:08 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-32015</guid>
+
+					<description><![CDATA[واقعاااااا دلسوزانه اموزش دادید که توی هیچ دانشگاهی به این قشنگی اموزش نمیدن.]]></description>
+			<content:encoded><![CDATA[<p>واقعاااااا دلسوزانه اموزش دادید که توی هیچ دانشگاهی به این قشنگی اموزش نمیدن.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		توسط: رضا		</title>
+		<link>./../index.html#comment-31702</link>
+
+		<dc:creator><![CDATA[رضا]]></dc:creator>
+		<pubDate>Tue, 13 Nov 2018 18:24:40 +0000</pubDate>
+		<guid isPermaLink="false">./../../../index.html?p=2559#comment-31702</guid>
+
+					<description><![CDATA[نصب mysql توی نسخه ۱۸٫۰۴ ubuntu یکمی فرق کرده. در بین مراحل نصب پسورد روت رو نمی پرسه و باید با یه روش دیگه اون رو تنظیم کرد. 
+اگه وقت کردید آموزش اون رو هم قرار بدید محشر میشه. 
+تشکر]]></description>
+			<content:encoded><![CDATA[<p>نصب mysql توی نسخه ۱۸٫۰۴ ubuntu یکمی فرق کرده. در بین مراحل نصب پسورد روت رو نمی پرسه و باید با یه روش دیگه اون رو تنظیم کرد.<br />
+اگه وقت کردید آموزش اون رو هم قرار بدید محشر میشه.<br />
+تشکر</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
