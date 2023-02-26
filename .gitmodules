@@ -1,0 +1,3 @@
+[submodule "evazzadeh-dl"]
+	path = evazzadeh-dl
+	url = https://github.com/JavadEvazzadeh/evazzadeh-dl.git
