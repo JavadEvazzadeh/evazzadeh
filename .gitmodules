@@ -7,3 +7,24 @@
 [submodule "video/powerpoint"]
 	path = video/powerpoint
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-powerpoint.git
+[submodule "video/html"]
+	path = video/html
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html.git
+[submodule "video/html-part2"]
+	path = video/html-part2
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html-part2.git
+[submodule "video/php"]
+	path = video/php
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-php.git
+[submodule "video/php-part2"]
+	path = video/php-part2
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-php-part2.git
+[submodule "video/wordpress"]
+	path = video/wordpress
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-wordpress.git
+[submodule "video/c"]
+	path = video/c
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-c.git
+[submodule "video/excel"]
+	path = video/excel
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-excel.git
