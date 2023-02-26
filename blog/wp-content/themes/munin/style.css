@@ -1098,3 +1098,7 @@ footer .social{
 .donate-box{
     display: none;
 }
+.sidebar-nav .search-form{
+    display: none;
+}
+
