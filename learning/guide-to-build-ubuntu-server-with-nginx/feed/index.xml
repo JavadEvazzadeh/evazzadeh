@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	دیدگاه‌ها برای: آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس	</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/feed/" rel="self" type="application/rss+xml" />
+	<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/</link>
 	<description>وب نوشته های یک انسان!</description>
 	<lastBuildDate>Wed, 17 Mar 2021 10:50:26 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		توسط: Khadem hussain		</title>
-		<link>./../index.html#comment-39627</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-39627</link>
 
 		<dc:creator><![CDATA[Khadem hussain]]></dc:creator>
 		<pubDate>Wed, 17 Mar 2021 10:50:26 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39627</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-39627</guid>
 
 					<description><![CDATA[Khademhussainalizada]]></description>
 			<content:encoded><![CDATA[<p>Khademhussainalizada</p>
@@ -34,11 +34,11 @@
 		<item>
 		<title>
 		توسط: جواد ادیب		</title>
-		<link>./../index.html#comment-39403</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-39403</link>
 
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Wed, 27 Jan 2021 14:23:12 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39403</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-39403</guid>
 
 					<description><![CDATA[برای نصب زیپ و آنزیپ
 &lt;code&gt;sudo apt install zip unzip&lt;/code&gt;]]></description>
@@ -50,11 +50,11 @@
 		<item>
 		<title>
 		توسط: جواد ادیب		</title>
-		<link>./../index.html#comment-39398</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-39398</link>
 
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Tue, 26 Jan 2021 22:57:30 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39398</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-39398</guid>
 
 					<description><![CDATA[برای نصب اکستنشن کار با تصاویر
 &lt;code&gt;sudo apt install php-imagick&lt;/code&gt;]]></description>
@@ -66,11 +66,11 @@
 		<item>
 		<title>
 		توسط: جواد ادیب		</title>
-		<link>./../index.html#comment-39395</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-39395</link>
 
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Tue, 26 Jan 2021 12:47:11 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-39395</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-39395</guid>
 
 					<description><![CDATA[برای نصب آخرین نسخه phpmyadmin و همخوانی با sql8
 &lt;code&gt;sudo add-apt-repository ppa:phpmyadmin/ppa&lt;/code&gt;]]></description>
@@ -82,11 +82,11 @@
 		<item>
 		<title>
 		توسط: محمد جواد قاسمی		</title>
-		<link>./../index.html#comment-37993</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-37993</link>
 
 		<dc:creator><![CDATA[محمد جواد قاسمی]]></dc:creator>
 		<pubDate>Thu, 30 Jul 2020 14:38:40 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-37993</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-37993</guid>
 
 					<description><![CDATA[نصب phpmyadmin با composer بهتره.
 اخرین نسخه رو نصب می کنید. ( نسخه ای که توی مخزن اوبونتو هست چند وقتیه همیشه warning داره و برای حل کردنش باید دستی تو کانفیگش برد ) 
@@ -103,11 +103,11 @@ composer create-project phpmyadmin/phpmyadmin .]]></description>
 		<item>
 		<title>
 		توسط: جواد عوض زاده		</title>
-		<link>./../index.html#comment-34350</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-34350</link>
 
 		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
 		<pubDate>Sat, 19 Oct 2019 10:05:43 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-34350</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-34350</guid>
 
 					<description><![CDATA[تنظیمات مورد نیاز توی فایل php.ini هم به نام زیر هستند
 &lt;code&gt;sudo nano /etc/php/7.4/fpm/php.ini&lt;/code&gt;
@@ -126,11 +126,11 @@ max_execution_time = 360</code></p>
 		<item>
 		<title>
 		توسط: جواد عوض زاده		</title>
-		<link>./../index.html#comment-34349</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-34349</link>
 
 		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
 		<pubDate>Sat, 19 Oct 2019 08:47:28 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-34349</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-34349</guid>
 
 					<description><![CDATA[برای دسترسی به امکانات بیشتر در انجین اکس می‌تونید کد زیر رو اجرا کنید.
 &lt;code&gt;apt install nginx-extras&lt;/code&gt;]]></description>
@@ -142,16 +142,16 @@ max_execution_time = 360</code></p>
 		<item>
 		<title>
 		توسط: جواد عوض زاده		</title>
-		<link>./../index.html#comment-32036</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-32036</link>
 
 		<dc:creator><![CDATA[جواد عوض زاده]]></dc:creator>
 		<pubDate>Tue, 11 Dec 2018 21:32:36 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-32036</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-32036</guid>
 
-					<description><![CDATA[در پاسخ به &lt;a href=&quot;./../index.html#comment-31702&quot;&gt;رضا&lt;/a&gt;.
+					<description><![CDATA[در پاسخ به &lt;a href=&quot;https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-31702&quot;&gt;رضا&lt;/a&gt;.
 
 نحوه نصب نسخه ۷.۳ که همین چند روز پیش اومده گذاشته شد. بخش مای‌اس‌کیو‌ال هم بروز شد.]]></description>
-			<content:encoded><![CDATA[<p>در پاسخ به <a href="./../index.html#comment-31702">رضا</a>.</p>
+			<content:encoded><![CDATA[<p>در پاسخ به <a href="https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-31702">رضا</a>.</p>
 <p>نحوه نصب نسخه ۷.۳ که همین چند روز پیش اومده گذاشته شد. بخش مای‌اس‌کیو‌ال هم بروز شد.</p>
 ]]></content:encoded>
 		
@@ -159,11 +159,11 @@ max_execution_time = 360</code></p>
 		<item>
 		<title>
 		توسط: علی		</title>
-		<link>./../index.html#comment-32015</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-32015</link>
 
 		<dc:creator><![CDATA[علی]]></dc:creator>
 		<pubDate>Fri, 07 Dec 2018 19:53:08 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-32015</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-32015</guid>
 
 					<description><![CDATA[واقعاااااا دلسوزانه اموزش دادید که توی هیچ دانشگاهی به این قشنگی اموزش نمیدن.]]></description>
 			<content:encoded><![CDATA[<p>واقعاااااا دلسوزانه اموزش دادید که توی هیچ دانشگاهی به این قشنگی اموزش نمیدن.</p>
@@ -173,11 +173,11 @@ max_execution_time = 360</code></p>
 		<item>
 		<title>
 		توسط: رضا		</title>
-		<link>./../index.html#comment-31702</link>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comment-31702</link>
 
 		<dc:creator><![CDATA[رضا]]></dc:creator>
 		<pubDate>Tue, 13 Nov 2018 18:24:40 +0000</pubDate>
-		<guid isPermaLink="false">./../../../index.html?p=2559#comment-31702</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559#comment-31702</guid>
 
 					<description><![CDATA[نصب mysql توی نسخه ۱۸٫۰۴ ubuntu یکمی فرق کرده. در بین مراحل نصب پسورد روت رو نمی پرسه و باید با یه روش دیگه اون رو تنظیم کرد. 
 اگه وقت کردید آموزش اون رو هم قرار بدید محشر میشه. 

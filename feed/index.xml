@@ -9,10 +9,10 @@
 
 <channel>
 	<title>جواد عوض زاده</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../index.html</link>
+	<atom:link href="https://evazzadeh.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://evazzadeh.com/</link>
 	<description>وب نوشته های یک انسان!</description>
-	<lastBuildDate>Tue, 21 Feb 2023 06:06:42 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Feb 2023 07:09:27 +0000</lastBuildDate>
 	<language>fa-IR</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -21,25 +21,25 @@
 	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>توقف فعالیت سایت عوض‌زاده دات کام</title>
-		<link>./../handwriting/finish/index.html</link>
-					<comments>./../handwriting/finish/index.html#respond</comments>
+		<link>https://evazzadeh.com/handwriting/finish/</link>
+					<comments>https://evazzadeh.com/handwriting/finish/#respond</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Tue, 21 Feb 2023 06:06:42 +0000</pubDate>
 				<category><![CDATA[دست نوشته ها]]></category>
-		<guid isPermaLink="false">./../index.html?p=2729</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2729</guid>
 
 					<description><![CDATA[توقف فعالیت سایت عوض‌زاده دات کام و لینک به سایت جدید MrAdib.com و کانال یوتیوب مستر ادیب]]></description>
 		
-					<wfw:commentRss>./../handwriting/finish/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/handwriting/finish/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>تغییر نام خانوادگی به ادیب و چند نکته</title>
-		<link>./../tips/adib/index.html</link>
-					<comments>./../tips/adib/index.html#comments</comments>
+		<link>https://evazzadeh.com/tips/adib/</link>
+					<comments>https://evazzadeh.com/tips/adib/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Sat, 02 May 2020 22:47:07 +0000</pubDate>
@@ -48,19 +48,19 @@
 		<category><![CDATA[ادیب]]></category>
 		<category><![CDATA[جواد ادیب]]></category>
 		<category><![CDATA[جواد عوض زاده کاکرودی]]></category>
-		<guid isPermaLink="false">./../index.html?p=2723</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2723</guid>
 
 					<description><![CDATA[سلام بعد از نزدیک به یک سال از آخرین پست و دو سال پس از آخرین مطلب آموزشی دارم این مطلب رو منتشر میکنم! روزگار چه زود میگذرد. آخرین سالگرد تولد سایت که براش خبر منتشر کردم مربوط به ۵ سال پیشه! چند تا نکته رو لازم دیدم که بگم. یک اینکه نزدیک به ۵۰۰ [&#8230;]]]></description>
 		
-					<wfw:commentRss>./../tips/adib/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/tips/adib/feed/</wfw:commentRss>
 			<slash:comments>7</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>اجازه‌نامه عمومی برای بازنشر رایگان تمام ویدیوهای آموزشی</title>
-		<link>./../learning-video/reshare-free/index.html</link>
-					<comments>./../learning-video/reshare-free/index.html#comments</comments>
+		<link>https://evazzadeh.com/learning-video/reshare-free/</link>
+					<comments>https://evazzadeh.com/learning-video/reshare-free/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Sat, 18 May 2019 04:57:20 +0000</pubDate>
@@ -71,19 +71,19 @@
 		<category><![CDATA[عوض زاده دات کام]]></category>
 		<category><![CDATA[لایسنس]]></category>
 		<category><![CDATA[مجوز]]></category>
-		<guid isPermaLink="false">./../index.html?p=2710</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2710</guid>
 
 					<description><![CDATA[بازنشر رایگان ویدیوهای آموزشی بنده رایگان است و نیاز به کسب اجازه نامه ندارد.]]></description>
 		
-					<wfw:commentRss>./../learning-video/reshare-free/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/learning-video/reshare-free/feed/</wfw:commentRss>
 			<slash:comments>4</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>باز کردن قفل ورود به سرور اوبونتو با کاربر روت</title>
-		<link>./../learning/root-login-over-ssh/index.html</link>
-					<comments>./../learning/root-login-over-ssh/index.html#comments</comments>
+		<link>https://evazzadeh.com/learning/root-login-over-ssh/</link>
+					<comments>https://evazzadeh.com/learning/root-login-over-ssh/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Tue, 11 Dec 2018 20:32:38 +0000</pubDate>
@@ -106,19 +106,19 @@
 		<category><![CDATA[یوزر]]></category>
 		<category><![CDATA[یوزر اوبونتو]]></category>
 		<category><![CDATA[یوزر لینوکس]]></category>
-		<guid isPermaLink="false">./../index.html?p=2669</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2669</guid>
 
 					<description><![CDATA[اگه دسترسی ورود با کاربر روت به سیستم‌عامل اوبونتو شما محدود شده و شما نمی‌تونید با یوزر روت به سرور لاگین کنید و وارد بشید، این آموزش رو دنبال کنید.]]></description>
 		
-					<wfw:commentRss>./../learning/root-login-over-ssh/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/learning/root-login-over-ssh/feed/</wfw:commentRss>
 			<slash:comments>12</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>ترجمه بخشی از سخنرانی مارتین لوتر کینگ درباره ویتنام</title>
-		<link>./../review/beyond-vietnam-fa-translation/index.html</link>
-					<comments>./../review/beyond-vietnam-fa-translation/index.html#comments</comments>
+		<link>https://evazzadeh.com/review/beyond-vietnam-fa-translation/</link>
+					<comments>https://evazzadeh.com/review/beyond-vietnam-fa-translation/#comments</comments>
 		
 		<dc:creator><![CDATA[سارا ترکمنی]]></dc:creator>
 		<pubDate>Wed, 20 Jun 2018 21:09:25 +0000</pubDate>
@@ -162,19 +162,19 @@
 		<category><![CDATA[نجات روح آمریکا]]></category>
 		<category><![CDATA[نگاه]]></category>
 		<category><![CDATA[ویتنام]]></category>
-		<guid isPermaLink="false">./../index.html?p=2648</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2648</guid>
 
 					<description><![CDATA[در بخشی از کتاب متون نثر ساده قسمتی از سخنرانی مارک لوتر کینگ که برخلاف عنوان کتاب نثر سختی هم داشت رو نیاز بود ترجمه کنم که با توجه به نبود منبع مناسب و زمانی که روی ترجمه گذاشتیم و شاید استفاده ثانویه توسط دانشجویان زبان انگلیسی اون رو منتشر می‌کنیم.]]></description>
 		
-					<wfw:commentRss>./../review/beyond-vietnam-fa-translation/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/review/beyond-vietnam-fa-translation/feed/</wfw:commentRss>
 			<slash:comments>7</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>چریکت</title>
-		<link>./../handwriting/chrikt/index.html</link>
-					<comments>./../handwriting/chrikt/index.html#comments</comments>
+		<link>https://evazzadeh.com/handwriting/chrikt/</link>
+					<comments>https://evazzadeh.com/handwriting/chrikt/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Sun, 10 Dec 2017 15:23:07 +0000</pubDate>
@@ -218,19 +218,19 @@
 		<category><![CDATA[متاسفانه]]></category>
 		<category><![CDATA[مثلا]]></category>
 		<category><![CDATA[وب]]></category>
-		<guid isPermaLink="false">./../index.html?p=2616</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2616</guid>
 
 					<description><![CDATA[و اما افراد حاضر در این دوره با نگرش‌ها و اهداف مختلف و با سطح سواد اولیه متفاوت وارد شدند. تنها پیش نیاز ما برای ورود توانایی روشن و خاموش کردن کامپوتر اعلام میشد و جنبه شوخی داشت. یعنی اصلا نیاز به سواد اولیه کامپیوتری نداشتیم.]]></description>
 		
-					<wfw:commentRss>./../handwriting/chrikt/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/handwriting/chrikt/feed/</wfw:commentRss>
 			<slash:comments>26</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>در عجبم</title>
-		<link>./../tips/awe/index.html</link>
-					<comments>./../tips/awe/index.html#comments</comments>
+		<link>https://evazzadeh.com/tips/awe/</link>
+					<comments>https://evazzadeh.com/tips/awe/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Wed, 20 Sep 2017 13:14:59 +0000</pubDate>
@@ -238,19 +238,19 @@
 		<category><![CDATA[عجبم]]></category>
 		<category><![CDATA[نمک]]></category>
 		<category><![CDATA[نمکدون]]></category>
-		<guid isPermaLink="false">./../index.html?p=2612</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2612</guid>
 
 					<description><![CDATA[شاید آدم نباید همه چی رو درک کنه!]]></description>
 		
-					<wfw:commentRss>./../tips/awe/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/tips/awe/feed/</wfw:commentRss>
 			<slash:comments>11</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>آموزش ساده و سریع کانفیگ سرور اوبونتو با انجین‌اکس</title>
-		<link>./../learning/guide-to-build-ubuntu-server-with-nginx/index.html</link>
-					<comments>./../learning/guide-to-build-ubuntu-server-with-nginx/index.html#comments</comments>
+		<link>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/</link>
+					<comments>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Sat, 03 Jun 2017 02:24:37 +0000</pubDate>
@@ -272,19 +272,19 @@
 		<category><![CDATA[مای‌اس‌کیو‌ال]]></category>
 		<category><![CDATA[نصب انجین‌اکس]]></category>
 		<category><![CDATA[نصب انجین‌اکس روی اوبونتو]]></category>
-		<guid isPermaLink="false">./../index.html?p=2559</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2559</guid>
 
 					<description><![CDATA[در ادامه نحوه‌ی راه‌اندازی ساده و سریع یک سرور اوبونتو با وب‌سرور انجین‌اکس رو به همراه نصب پی‌اچ‌پی و مای‌اس‌کیو‌ال و پی‌اچ‌پی مای‌ادمین آموزش میدیم. وقتشه از آپاچی به انجین‌اکس رفت! Apache to Nginx]]></description>
 		
-					<wfw:commentRss>./../learning/guide-to-build-ubuntu-server-with-nginx/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/learning/guide-to-build-ubuntu-server-with-nginx/feed/</wfw:commentRss>
 			<slash:comments>16</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>آموزش ساده و سریع اتصال بدون پسورد به سرور اوبونتو</title>
-		<link>./../learning/password-less-ssh-login-on-ubuntu/index.html</link>
-					<comments>./../learning/password-less-ssh-login-on-ubuntu/index.html#comments</comments>
+		<link>https://evazzadeh.com/learning/password-less-ssh-login-on-ubuntu/</link>
+					<comments>https://evazzadeh.com/learning/password-less-ssh-login-on-ubuntu/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Fri, 02 Jun 2017 23:39:25 +0000</pubDate>
@@ -302,19 +302,19 @@
 		<category><![CDATA[لاگین بدون پسورد به اوبونتو]]></category>
 		<category><![CDATA[لاگین به اوبونتو]]></category>
 		<category><![CDATA[لینوکس]]></category>
-		<guid isPermaLink="false">./../index.html?p=2562</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2562</guid>
 
 					<description><![CDATA[این آموزش بسیار ساده ولی کاربردی و امنیتی هست. برای اتصال ایمن و آسان به سرورهای لینوکس میتونید شناسه خودتون رو روی سرور ذخیره کنید تا هربار نیاز به وارد کردن پسورد نباشه]]></description>
 		
-					<wfw:commentRss>./../learning/password-less-ssh-login-on-ubuntu/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/learning/password-less-ssh-login-on-ubuntu/feed/</wfw:commentRss>
 			<slash:comments>9</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>پوزش بابت عدم پاسخ‌دهی به سوالات</title>
-		<link>./../tips/ermile-time/index.html</link>
-					<comments>./../tips/ermile-time/index.html#comments</comments>
+		<link>https://evazzadeh.com/tips/ermile-time/</link>
+					<comments>https://evazzadeh.com/tips/ermile-time/#comments</comments>
 		
 		<dc:creator><![CDATA[جواد ادیب]]></dc:creator>
 		<pubDate>Mon, 10 Oct 2016 18:27:56 +0000</pubDate>
@@ -325,11 +325,11 @@
 		<category><![CDATA[سرشمار]]></category>
 		<category><![CDATA[سرویس]]></category>
 		<category><![CDATA[مدیریت زمان]]></category>
-		<guid isPermaLink="false">./../index.html?p=2551</guid>
+		<guid isPermaLink="false">https://evazzadeh.com/?p=2551</guid>
 
 					<description><![CDATA[اخیرا تماس‌های زیادی در رابطه با درخواست انتشار ویدیوها و مطالب در وب‌سایت‌های آموزشی وجود داره که پاسخ به همه اون‌ها اعلام رضایت در انتشار رایگان مطالب هست و خوشحالم از اینکه این آموزش‌ها از روش‌های متفاوتی پخش بشه:)]]></description>
 		
-					<wfw:commentRss>./../tips/ermile-time/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>https://evazzadeh.com/tips/ermile-time/feed/</wfw:commentRss>
 			<slash:comments>3</slash:comments>
 		
 		
