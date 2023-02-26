@@ -1,30 +1,30 @@
-[submodule "video/word"]
-	path = video/word
+[submodule "dl/video/word"]
+	path = dl/video/word
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-word.git
-[submodule "video/wp"]
-	path = video/wp
+[submodule "dl/video/wp"]
+	path = dl/video/wp
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-wp.git
-[submodule "video/powerpoint"]
-	path = video/powerpoint
+[submodule "dl/video/powerpoint"]
+	path = dl/video/powerpoint
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-powerpoint.git
-[submodule "video/html"]
-	path = video/html
+[submodule "dl/video/html"]
+	path = dl/video/html
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html.git
-[submodule "video/html-part2"]
-	path = video/html-part2
+[submodule "dl/video/html-part2"]
+	path = dl/video/html-part2
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html-part2.git
-[submodule "video/php"]
-	path = video/php
+[submodule "dl/video/php"]
+	path = dl/video/php
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-php.git
-[submodule "video/php-part2"]
-	path = video/php-part2
+[submodule "dl/video/php-part2"]
+	path = dl/video/php-part2
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-php-part2.git
-[submodule "video/wordpress"]
-	path = video/wordpress
+[submodule "dl/video/wordpress"]
+	path = dl/video/wordpress
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-wordpress.git
-[submodule "video/c"]
-	path = video/c
+[submodule "dl/video/c"]
+	path = dl/video/c
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-c.git
-[submodule "video/excel"]
-	path = video/excel
+[submodule "dl/video/excel"]
+	path = dl/video/excel
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-excel.git

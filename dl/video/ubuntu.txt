@@ -1,0 +1,12 @@
+http://evazzadeh.com/dl/video/build-ubuntu-server01.mp4
+http://evazzadeh.com/dl/video/build-ubuntu-server02.mp4
+http://evazzadeh.com/dl/video/build-ubuntu-server03.mp4
+http://evazzadeh.com/dl/video/setup-git-on-ubuntu01.mp4
+http://evazzadeh.com/dl/video/setup-git-on-ubuntu02.mp4
+
+
+# Ubuntu Learning Video by Javad Evazzadeh
+# This videos captured on Aug 2014 - Sep 2014 © Evazzadeh.com
+# Visit below link to get more information about another packages
+# http://evazzadeh.com/learning-video/guide-to-build-ubuntu-server/
+# http://evazzadeh.com/learning-video/guide-to-setup-git-on-ubuntu/
