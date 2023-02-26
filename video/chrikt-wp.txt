@@ -1,0 +1,25 @@
+http://evazzadeh.com/dl/video/chrikt-wp01-intro.mp4
+http://evazzadeh.com/dl/video/chrikt-wp02-intro.mp4
+http://evazzadeh.com/dl/video/chrikt-wp03-template.mp4
+http://evazzadeh.com/dl/video/chrikt-wp04-functions.mp4
+http://evazzadeh.com/dl/video/chrikt-wp05-template.mp4
+http://evazzadeh.com/dl/video/chrikt-wp06-menu.mp4
+http://evazzadeh.com/dl/video/chrikt-wp07-menu.mp4
+http://evazzadeh.com/dl/video/chrikt-wp08-widget.mp4
+http://evazzadeh.com/dl/video/chrikt-wp09-post-format.mp4
+http://evazzadeh.com/dl/video/chrikt-wp10-thumbnail.mp4
+http://evazzadeh.com/dl/video/chrikt-wp11-excerpt.mp4
+http://evazzadeh.com/dl/video/chrikt-wp12-search.mp4
+http://evazzadeh.com/dl/video/chrikt-wp13-permalinks.mp4
+http://evazzadeh.com/dl/video/chrikt-wp14-shortcode.mp4
+http://evazzadeh.com/dl/video/chrikt-wp15-hierarchy.mp4
+http://evazzadeh.com/dl/video/chrikt-wp16-improve.mp4
+http://evazzadeh.com/dl/video/chrikt-wp17-comments.mp4
+http://evazzadeh.com/dl/video/chrikt-wp18-wpquery.mp4
+http://evazzadeh.com/dl/video/chrikt-wp19-improve.mp4
+
+
+
+// Wordpress Learning Video by Javad Evazzadeh
+// Visit below link to get more information about another packages
+// http://evazzadeh.com/learning-video/chrikt-wp/
