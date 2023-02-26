@@ -1,16 +1,16 @@
-http://evazzadeh.com/dl/video/wordpress01-login.mp4
-http://evazzadeh.com/dl/video/wordpress02-dashboard.mp4
-http://evazzadeh.com/dl/video/wordpress03-review.mp4
-http://evazzadeh.com/dl/video/wordpress04-terms.mp4
-http://evazzadeh.com/dl/video/wordpress05-post-formating.mp4
-http://evazzadeh.com/dl/video/wordpress06-post-media.mp4
-http://evazzadeh.com/dl/video/wordpress07-post-publish.mp4
-http://evazzadeh.com/dl/video/wordpress08-post-seo.mp4
-http://evazzadeh.com/dl/video/wordpress09-page.mp4
-http://evazzadeh.com/dl/video/wordpress10-review.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress01-login.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress02-dashboard.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress03-review.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress04-terms.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress05-post-formating.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress06-post-media.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress07-post-publish.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress08-post-seo.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress09-page.mp4
+https://evazzadeh.com/dl/video/wordpress/wordpress10-review.mp4
 
 
 # using wordpress cms Learning Video by Javad Evazzadeh
 # This videos captured on May 2013 © Evazzadeh.com
 # Visit below link to get more information about another packages
-# http://evazzadeh.com/learning-video/introducing-wordpress/
+# https://evazzadeh.com/learning-video/introducing-wordpress/

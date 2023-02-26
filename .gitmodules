@@ -7,12 +7,12 @@
 [submodule "dl/video/powerpoint"]
 	path = dl/video/powerpoint
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-powerpoint.git
-# [submodule "dl/video/html"]
-# 	path = dl/video/html
-# 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html.git
-# [submodule "dl/video/html-part2"]
-# 	path = dl/video/html-part2
-# 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html-part2.git
+[submodule "dl/video/html"]
+	path = dl/video/html
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html.git
+[submodule "dl/video/html-part2"]
+	path = dl/video/html-part2
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-html-part2.git
 # [submodule "dl/video/php"]
 # 	path = dl/video/php
 # 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-php.git
@@ -25,6 +25,6 @@
 [submodule "dl/video/c"]
 	path = dl/video/c
 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-c.git
-# [submodule "dl/video/excel"]
-# 	path = dl/video/excel
-# 	url = https://github.com/JavadEvazzadeh/evazzadeh-video-excel.git
+[submodule "dl/video/excel"]
+	path = dl/video/excel
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-excel.git

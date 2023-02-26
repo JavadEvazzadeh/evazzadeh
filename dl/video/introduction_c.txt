@@ -1,18 +1,18 @@
-http://evazzadeh.com/dl/video/introduction_c01.mp4
-http://evazzadeh.com/dl/video/introduction_c02.mp4
-http://evazzadeh.com/dl/video/introduction_c03.mp4
-http://evazzadeh.com/dl/video/introduction_c04.mp4
-http://evazzadeh.com/dl/video/introduction_c05.mp4
-http://evazzadeh.com/dl/video/introduction_c06.mp4
-http://evazzadeh.com/dl/video/introduction_c07.mp4
-http://evazzadeh.com/dl/video/introduction_c08.mp4
-http://evazzadeh.com/dl/video/introduction_c09.mp4
-http://evazzadeh.com/dl/video/introduction_c10.mp4
-http://evazzadeh.com/dl/video/introduction_c11.mp4
-http://evazzadeh.com/dl/video/introduction_c12.mp4
+https://evazzadeh.com/dl/video/c/introduction_c01.mp4
+https://evazzadeh.com/dl/video/c/introduction_c02.mp4
+https://evazzadeh.com/dl/video/c/introduction_c03.mp4
+https://evazzadeh.com/dl/video/c/introduction_c04.mp4
+https://evazzadeh.com/dl/video/c/introduction_c05.mp4
+https://evazzadeh.com/dl/video/c/introduction_c06.mp4
+https://evazzadeh.com/dl/video/c/introduction_c07.mp4
+https://evazzadeh.com/dl/video/c/introduction_c08.mp4
+https://evazzadeh.com/dl/video/c/introduction_c09.mp4
+https://evazzadeh.com/dl/video/c/introduction_c10.mp4
+https://evazzadeh.com/dl/video/c/introduction_c11.mp4
+https://evazzadeh.com/dl/video/c/introduction_c12.mp4
 
 
 # C programming language Learning Video by Javad Evazzadeh
 # This videos captured on Nov 2013 © Evazzadeh.com
 # Visit below link to get more information about another packages
-# http://evazzadeh.com/learning-video/introducing-c/
+# https://evazzadeh.com/learning-video/introducing-c/

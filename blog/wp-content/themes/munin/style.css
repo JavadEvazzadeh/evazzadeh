@@ -1092,7 +1092,7 @@ input:focus, button:focus{outline:none}
 #respond.container{
     display:none!important;
 }
-footer .social{
+footer #social{
     display: none!important;
 }
 .donate-box{

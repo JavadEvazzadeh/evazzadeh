@@ -1,14 +1,14 @@
-http://evazzadeh.com/dl/video/powerpoint01.mp4
-http://evazzadeh.com/dl/video/powerpoint02.mp4
-http://evazzadeh.com/dl/video/powerpoint03.mp4
-http://evazzadeh.com/dl/video/powerpoint04.mp4
-http://evazzadeh.com/dl/video/powerpoint05.mp4
-http://evazzadeh.com/dl/video/powerpoint06.mp4
-http://evazzadeh.com/dl/video/powerpoint07.mp4
-http://evazzadeh.com/dl/video/powerpoint08.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint01.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint02.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint03.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint04.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint05.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint06.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint07.mp4
+https://evazzadeh.com/dl/video/powerpoint/powerpoint08.mp4
 
 
 # Powerpoint Learning Video by Javad Evazzadeh
 # This videos captured on Dec 2013 © Evazzadeh.com
 # Visit below link to get more information about another packages
-# http://evazzadeh.com/learning-video/office-powerpoint/
+# https://evazzadeh.com/learning-video/office-powerpoint/
