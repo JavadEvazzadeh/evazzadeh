@@ -1088,3 +1088,13 @@ input:focus, button:focus{outline:none}
   html::before{content:":)";position:absolute;right:10%;font-size:100vw;transform: rotate(90deg);}
   html[dir="rtl"]::before{transform: rotate(-90deg);right:30%;}
 }
+
+#.container{
+    display:none;
+}
+footer .social{
+    display: none;
+}
+.donate-box{
+    display: none;
+}
