@@ -1,0 +1,15 @@
+http://dl.evazzadeh.com/video/wordpress-part1-login.wmv
+http://dl.evazzadeh.com/video/wordpress-part2-dashboard.wmv
+http://dl.evazzadeh.com/video/wordpress-part3-review.wmv
+http://dl.evazzadeh.com/video/wordpress-part4-category-tag.wmv
+http://dl.evazzadeh.com/video/wordpress-part5-post1-formating.wmv
+http://dl.evazzadeh.com/video/wordpress-part6-post2-media.wmv
+http://dl.evazzadeh.com/video/wordpress-part7-post3-publish.wmv
+http://dl.evazzadeh.com/video/wordpress-part8-post4-seo.wmv
+http://dl.evazzadeh.com/video/wordpress-part9-page.wmv
+http://dl.evazzadeh.com/video/wordpress-part10-final-review.wmv
+
+
+
+// Introducing Wordpress Video by Javad Evazzadeh
+// Visit http://www.evazzadeh.com/1392/introducing-wordpress/ to get more info
