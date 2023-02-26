@@ -1,0 +1,3 @@
+[submodule "video/word"]
+	path = video/word
+	url = https://github.com/JavadEvazzadeh/evazzadeh-video-word.git
