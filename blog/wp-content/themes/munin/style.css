@@ -1089,16 +1089,21 @@ input:focus, button:focus{outline:none}
   html[dir="rtl"]::before{transform: rotate(-90deg);right:30%;}
 }
 
-#.container{
-    display:none;
+#respond.container{
+    display:none!important;
 }
 footer .social{
-    display: none;
+    display: none!important;
 }
 .donate-box{
-    display: none;
+    display: none!important;
 }
 .sidebar-nav .search-form{
-    display: none;
+    display: none!important;
 }
-
+.donate-nav{
+    display: none!important;
+}
+.sidebar-items{
+    margin-top: 55px;
+}
